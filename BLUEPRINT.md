@@ -101,7 +101,7 @@ Every day carries a **sound** post and a **light** post. Each side rotates throu
 | Sat | Proof and story (falls back to Explained) | Proof and story (falls back to Explained) |
 | Sun | Coming soon, or myth vs. fact | Coming soon, or myth vs. fact |
 
-The two posts go out at different times of day, at the best slots Metricool reports. Reels and Shorts get the same vertical video. LinkedIn gets the organiser and installation posts with a longer caption. X gets a short text version with the clip.
+The two posts go out at different times of day, at the best slots Metricool reports. Every post goes to Instagram Reels, YouTube Shorts and LinkedIn with the same vertical video. X is added once it is connected in Metricool.
 
 Fourteen videos a week is about 6,000 characters of narration (roughly 26,000 a month); the ElevenLabs plan has to cover that.
 
@@ -220,7 +220,7 @@ playbook.md     what the agent has learned (updated weekly)
 
 | Topic | Decision |
 |---|---|
-| Platforms | Instagram Reels and YouTube Shorts first, LinkedIn alongside (all three connected in Metricool); X once it is added to Metricool |
+| Platforms | Every post goes to Instagram Reels, YouTube Shorts and LinkedIn; X once it is added to Metricool |
 | Research | No vidIQ — Metricool competitors, web search and our own analytics |
 | Market | Karnataka for now — posting times and local keywords follow from this |
 | Approval | None — the agent publishes on its own once a post passes the quality gate |
