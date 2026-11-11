@@ -149,9 +149,7 @@ A daily post = one scene + a spec file:
 
 Voice: calm, confident, plain sentences, no hype and no exclamation marks — see `brand/company.md`.
 
-```
-CTA options: "Get a quote — link in bio" · "WhatsApp us" · "Tell me when it's out" (shop teasers)
-```
+CTA options: "Get a quote — link in bio" · "WhatsApp us" · "Tell me when it's out" (shop teasers).
 
 ## 6. Operating loops
 
