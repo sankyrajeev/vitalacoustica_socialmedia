@@ -66,7 +66,7 @@ The agent is **Claude Code running on a schedule in this repository**. The repo 
 | Competitor tracking | **Metricool** competitors (Instagram, YouTube) | Available once competitors are added to the brand |
 | Keyword and trend research | **Web search** + our own post analytics + industry news (FOH Online, ProSoundWeb, already linked from the site journal) | Available |
 | Video rendering | **Code in this repo** — Three.js (3D) + a physics engine + GSAP (motion), rendered headless to MP4 | To build (phase 1) |
-| Voiceover | **ElevenLabs** | Not connected yet — required |
+| Voiceover | **ElevenLabs** API (key stored on the cloud environment, never in the repo) | Connected and tested: text-to-speech works. The key cannot list voices or read quota |
 | Stills, thumbnails | **OpenArt** | Connected, used sparingly |
 
 vidIQ is **not used**: the account is unavailable, so nothing in this plan depends on it.
@@ -227,7 +227,7 @@ playbook.md     what the agent has learned (updated weekly)
 
 ### Still open
 
-1. **ElevenLabs.** Needed for voiceover and not yet connected.
+1. **Narrator voice.** Pick one ElevenLabs voice to use on every video.
 2. **X.** The site links an X profile; add it to the Vital Acoustica brand in Metricool when ready.
 3. **Competitors.** A starting list of 5–10 accounts to track (other Karnataka rental houses, plus international accounts whose content style we like). The agent can propose one.
 4. **Real footage.** Where the team will drop event clips for the Saturday slot.
