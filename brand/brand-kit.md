@@ -27,6 +27,19 @@ Both are free on Google Fonts.
 - **Headings:** Instrument Serif, with the italic for emphasis
 - **Body and labels:** Manrope (labels in SemiBold capitals with wide letter-spacing)
 
-## Still needed
+## Logo
 
-- Logo files (SVG or transparent PNG, light and dark versions)
+Transparent PNGs in `brand/logo/`, trimmed to the artwork with a small margin.
+
+| File | Use |
+|---|---|
+| `wordmark-white.png` | Full logo with "Pro Audio • Lighting • Rentals" — on Obsidian/Charcoal (the default for videos) |
+| `wordmark-black.png` | Full logo — on Ivory or other light backgrounds |
+| `mark-white.png` | VA monogram — corner watermark and profile use on dark |
+| `mark-black.png` | VA monogram — on light backgrounds |
+
+Videos use the white monogram as a corner watermark and the white wordmark on the closing brand card.
+
+## Voice
+
+English only, voiceover on every video.

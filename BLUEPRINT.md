@@ -210,13 +210,12 @@ playbook.md     what the agent has learned (updated weekly)
 | Market | Karnataka for now — posting times and local keywords follow from this |
 | Approval | The owner approves every post |
 | Audio | Voiceover on every video |
-| Brand | Kit recorded in `brand/` |
+| Brand | Kit and logo files recorded in `brand/` |
+| Language | English only |
+| YouTube | A Vital Acoustica channel exists for Shorts |
 
 ### Still open
 
-1. **Connect the accounts.** Metricool and vidIQ currently hold only the **whatiffun** brand. @vitalacoustica needs to be added as a brand in Metricool (and connected in vidIQ) before the agent can schedule, post or read analytics for it.
-2. **YouTube.** Does a Vital Acoustica YouTube channel exist for Shorts, or should one be created?
-3. **ElevenLabs.** No ElevenLabs connector is available in this workspace yet. Connect it, or use vidIQ's voiceover until then.
-4. **Logo files.** SVG or transparent PNG, light and dark versions.
-5. **Company details.** Named products (plugins, connectors), services list and typical customers, for the Products and Rental pillars.
-6. **Voice.** Narrator language(s) — English only, or Kannada as well? — and a preferred voice.
+1. **Connect the accounts.** Metricool and vidIQ currently hold only the **whatiffun** brand. The Vital Acoustica Instagram and YouTube accounts need to be added as a brand in Metricool (and connected in vidIQ) before the agent can schedule, post or read analytics for them.
+2. **ElevenLabs.** No ElevenLabs connector is available in this workspace yet. Connect it, or use vidIQ's voiceover until then.
+3. **What we sell.** A plain list of what to promote: the rental gear and services on offer, and the name and one-line description of each plugin and connector. Needed for the Products and Rental pillars; the physics explainers can start without it.
