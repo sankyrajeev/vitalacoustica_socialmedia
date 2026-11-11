@@ -208,7 +208,8 @@ playbook.md     what the agent has learned (updated weekly)
 |---|---|
 | Technically wrong explainer damages credibility with audio professionals, with no human check before it goes out | Fact sheet + quality gate; every figure on screen is computed or sourced, never guessed; the weekly report lists what was published so errors are caught fast |
 | Feed feels repetitive | Scene library grows monthly; duplicate check; Saturday slot uses real footage |
-| Media hosting — Metricool needs a public URL for each video, and this repository is private | **Open: blocks publishing.** Needs a public place for finished videos |
+| Media hosting — Metricool needs a public URL for each video | This repository is public; videos are linked from it by commit, and Metricool copies them to its own storage. The repository grows by roughly 25 MB a day at two videos; move videos to a storage bucket before that becomes a problem |
+| The repository is public | Never commit keys, client details or anything not meant to be seen; keys stay on the cloud environment |
 | No dedicated keyword tool (vidIQ unavailable) | Web search plus our own analytics; revisit if research proves too thin |
 | Platform rate limits / API changes | Metricool as the single publishing layer; failures reported, never silently skipped |
 | Real footage dependence for "Proof & people" | Shared folder the team drops clips into; slot falls back to a know-how post if empty |
