@@ -4,18 +4,57 @@
   "pillar": "light-explained",
   "kicker": "Light explained",
   "hook": "Why can you see a beam *in mid-air?*",
-  "params": { "beam_half_angle_deg": 2.4, "particles": 52000 },
-  "voice": { "voice_id": "JBFqnCBsd6RMkjVDRZzb", "model_id": "eleven_multilingual_v2" },
+  "params": {
+    "beam_half_angle_deg": 2.4,
+    "particles": 52000
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
   "beats": [
-    { "id": "hook", "lead": 0.5, "say": "Why can you see a beam of light in mid-air?" },
-    { "id": "dark", "say": "Light travels in a straight line, and from the side, it's invisible. All you see is the spot where it lands." },
-    { "id": "haze", "say": "Now add haze. Millions of tiny droplets, hanging in the air." },
-    { "id": "scatter", "hold": 0.8, "say": "Each one in the beam's path scatters a little light toward your eyes. And the beam appears." },
-    { "id": "takeaway", "hold": 1.6, "say": "Haze doesn't add light. It reveals the light that's already there." },
-    { "id": "outro", "lead": 0.5, "hold": 1.4, "say": "Follow Vital Acoustica for more." }
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why can you see a beam of light in mid-air?"
+    },
+    {
+      "id": "dark",
+      "say": "Light travels in a straight line, and from the side, it's invisible. All you see is the spot where it lands."
+    },
+    {
+      "id": "haze",
+      "say": "Now add haze. Millions of tiny droplets, hanging in the air."
+    },
+    {
+      "id": "scatter",
+      "hold": 0.8,
+      "say": "Each one in the beam's path scatters a little light toward your eyes. And the beam appears."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.6,
+      "say": "Haze doesn't add light. It reveals the light that's already there."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
   ],
   "outro": "Follow for more *light, explained.*",
   "caption": "Why can you see a beam of light in mid-air?\n\nLight travels in a straight line, and from the side it is invisible. All you see is the spot where it lands.\nAdd haze: tiny droplets hanging in the air.\nEach one in the beam's path scatters a little light toward your eyes, and the beam appears.\n\nHaze doesn't add light. It reveals the light that's already there.\n\nFollow @vitalacoustica for more light, explained.",
-  "hashtags": ["#vitalacoustica", "#lightisexperienced", "#stagelighting", "#lightingdesign", "#haze", "#movingheads", "#eventproduction", "#lightingtech"],
-  "youtube_title": "Why can you see a beam of light in mid-air? Haze explained"
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#stagelighting",
+    "#lightingdesign",
+    "#haze",
+    "#movingheads",
+    "#eventproduction",
+    "#lightingtech"
+  ],
+  "youtube_title": "Why can you see a beam of light in mid-air? Haze explained",
+  "linkedin": "Why can you see a beam of light in mid-air?\n\nStrictly speaking, you can't. Light only reaches your eye when it is travelling toward it. A beam crossing a room is travelling past you, so in clean air there is nothing to see except the lens of the fixture and the spot where the beam lands.\n\nThat is why a lighting rig can look spectacular in a photo and flat in an empty, clean room.\n\nHaze changes that. A haze machine fills the air with very fine droplets, small enough to hang there for a long time. Every droplet that sits in the beam's path scatters a little of that light in all directions, including toward the audience. Put enough of them along the length of the beam and it draws itself in the air as a solid shaft.\n\nThree things worth knowing if you plan events:\n\n1. Haze doesn't add light. The fixtures put out exactly what they did before. Haze only reveals what is already there, which means that without it, much of what a beam fixture can do goes unseen.\n\n2. Haze is not smoke. Haze is fine and even, and is meant to go almost unnoticed itself. Smoke is a dense burst for a moment: a drop, an entrance, a reveal. They are different tools for different jobs.\n\n3. It has to be planned with the venue. Air conditioning and ventilation thin it out and push it around, and some fire detection systems can react to it. Raise it with the venue early, not on the day.\n\nThe short video shows it happening: one beam in a clear room, then the same beam as the haze arrives.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
 }

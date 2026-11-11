@@ -101,7 +101,7 @@ Every day carries a **sound** post and a **light** post. Each side rotates throu
 | Sat | Proof and story (falls back to Explained) | Proof and story (falls back to Explained) |
 | Sun | Coming soon, or myth vs. fact | Coming soon, or myth vs. fact |
 
-The two posts go out at different times of day, at the best slots Metricool reports. Every post goes to Instagram Reels, YouTube Shorts and LinkedIn with the same vertical video. X is added once it is connected in Metricool.
+The two posts go out at different times of day, at the best slots Metricool reports. Every post goes to Instagram Reels, YouTube Shorts and LinkedIn with the same vertical video. Instagram and YouTube share a short caption; LinkedIn gets its own longer write-up (250–350 words) aimed at organisers, venue owners and production people. X is added once it is connected in Metricool.
 
 Fourteen videos a week is about 6,000 characters of narration (roughly 26,000 a month); the ElevenLabs plan has to cover that.
 

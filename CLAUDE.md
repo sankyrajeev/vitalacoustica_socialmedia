@@ -29,14 +29,25 @@ Metricool brand id for Vital Acoustica: `8029009`, timezone `Asia/Calcutta`. Nev
 
 1. `git pull` the default branch, `npm install`.
 2. Read `calendar/backlog.md`. Take the first unused sound topic and the first unused light topic. Check `posts/` so nothing from the last 60 days is repeated.
-3. For each topic, make a post folder `posts/<today>-<slug>/` with a `spec.json` modelled on the existing ones: hook, five or six narration beats (`hook` … `takeaway`, `outro`), follow line, caption, hashtags, `youtube_title`. Aim for 28–35 seconds and under 450 characters of narration.
+3. For each topic, make a post folder `posts/<today>-<slug>/` with a `spec.json` modelled on the existing ones: hook, five or six narration beats (`hook` … `takeaway`, `outro`), follow line, caption, hashtags, `youtube_title`, and `linkedin` (the long LinkedIn write-up, see below). Aim for 28–35 seconds and under 450 characters of narration.
 4. Build or reuse a scene. Reuse an existing scene when the topic fits it by changing parameters. Otherwise add a new `scenes/<name>/` following the two existing scenes: import `scenes/shared/frame.js`, compute the physics rather than drawing it, and make every frame a pure function of time (`window.renderFrame(t)`), with no stepping or randomness that changes between runs.
 5. `node renderer/voice.cjs posts/<id>` then `node renderer/render.cjs posts/<id> --still <times>` at one time inside every beat. **Look at the stills.** Fix and repeat until they pass the gate. Then render the full video and re-encode if it is over about 15 MB.
 6. Commit and push, so the video has a public link: `https://raw.githubusercontent.com/<owner>/<repo>/<commit sha>/posts/<id>/video.mp4`. Check the link returns the file.
-7. Schedule both on Metricool with `createScheduledPost` (`autoPublish: true`) as an Instagram Reel, a YouTube Short and a LinkedIn video post, all three in one Metricool post: the sound post at the best morning hour and the light post at the best evening hour from `getBestTimeToPostByNetwork`, at least 20 minutes in the future. YouTube: `type: short`, `madeForKids: false`, `category: EDUCATION`. LinkedIn: `type: post`. Add X (`twitter`) once it appears in the brand's connected networks.
+7. Schedule both on Metricool with `createScheduledPost` (`autoPublish: true`) as two Metricool posts at the same time: one for Instagram Reel + YouTube Short with the short caption, and one for LinkedIn alone with the same video and the long write-up from the spec's `linkedin` field. Timing: the sound post at the best morning hour and the light post at the best evening hour from `getBestTimeToPostByNetwork`, at least 20 minutes in the future. YouTube: `type: short`, `madeForKids: false`, `category: EDUCATION`. LinkedIn: `type: post`. Add X (`twitter`) once it appears in the brand's connected networks.
 8. Write `schedule.json` in each post folder, mark the topics used in the backlog, commit and push to the default branch.
 9. Check yesterday's posts actually published (`getScheduledPosts` for yesterday shows status and public links) and record the links in their `schedule.json`.
 10. End with a short report: what was scheduled and when, anything held back and why, anything that failed.
+
+## LinkedIn write-up
+
+LinkedIn gets its own longer text, never the short caption. 250–350 words, written for event organisers, venue owners and production people:
+
+- Open with the same question as the video, then answer it properly: what happens, why, in plain language.
+- Then a short numbered list of what it means in practice for someone planning an event (two to four points).
+- Include an honest trade-off or limit where there is one.
+- One line pointing to the video, then "Follow Vital Acoustica for more sound, explained." (or "light, explained.").
+- Three to five hashtags, no @ handles, no emoji, no "get a quote".
+- The same truth rule as the video applies to every sentence.
 
 ## Quality gate — a post that fails is held back and reported, never published
 
