@@ -1,0 +1,21 @@
+/* Vital Acoustica brand tokens — single source of truth for every rendered scene. */
+:root {
+  --va-obsidian: #101010;   /* main background */
+  --va-charcoal: #1C1C1B;   /* panels and cards */
+  --va-ivory: #F0EDE5;      /* text, light backgrounds */
+  --va-brass: #B8A47B;      /* accent, use sparingly */
+  --va-grey: #AAA69E;       /* secondary text */
+  --va-dark-brass: #7C6A44; /* accent text on light backgrounds */
+
+  --va-font-heading: "Instrument Serif", serif;
+  --va-font-body: "Manrope", sans-serif;
+}
+
+.va-heading { font-family: var(--va-font-heading); font-weight: 400; }
+.va-heading em { font-style: italic; }
+.va-label {
+  font-family: var(--va-font-body);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}

@@ -16,14 +16,15 @@ An agent ("the manager") that runs Vital Acoustica's social media end to end:
 
 Everything follows a fixed **template system** (section 5) so the feed looks like one brand, not 30 random posts.
 
-## 2. Company profile (to be confirmed)
+## 2. Company profile
 
-What is known so far, from the project brief:
-
-- **Vital Acoustica** — sound and light rental
+- **Vital Acoustica** — professional sound and lighting hire, with the crew to run it
+- Tagline: *Sound is felt. Light is experienced.*
 - Also builds **software plugins**, **lighting connectors** and other audio/lighting hardware and software
+- Market: **Karnataka** for now
+- Website: https://vitalacoustica.com · Instagram: @vitalacoustica
 
-> **Gap:** the fuller company details live in a separate Claude chat that this agent cannot read. Paste them into `brand/company.md` (services, city/region served, products with names, website, tone, target customers) and the content plan will be tightened around them.
+Full brand kit (colours, fonts) is in [`brand/brand-kit.md`](brand/brand-kit.md); the same values as CSS tokens for the renderer are in [`brand/tokens.css`](brand/tokens.css).
 
 ## 3. Architecture
 
@@ -63,7 +64,8 @@ The agent is **Claude Code running on a schedule in this repository**. The repo 
 | Scheduling, publishing, analytics | **Metricool** | Schedule posts (with or without review step), best-time-to-post, per-network metrics |
 | Keywords, competitors, trends | **vidIQ** | Keyword research, outlier videos, similar channels, competitor lists, Instagram/TikTok outliers, title scoring |
 | Video rendering | **Code in this repo** | Three.js (3D) + a physics engine + GSAP (motion), rendered headless to MP4 |
-| Voiceover / music | **vidIQ** | AI voiceover and background music where a video needs it |
+| Voiceover | **ElevenLabs** (not yet connected to this workspace — vidIQ voiceover is the fallback) | Narration on every video |
+| Music | **vidIQ** | Background music bed |
 | Stills, thumbnails, b-roll | **OpenArt** | Generated images where code-rendered visuals are not enough |
 | Hosted video projects | **HyperFrames** | Optional: shareable, cloud-rendered versions of a composition |
 
@@ -97,7 +99,7 @@ The agent is **Claude Code running on a schedule in this repository**. The repo 
 
 ## 5. Template system
 
-### Video template (vertical 9:16, 20–40 s)
+### Video template (vertical 9:16, 20–40 s, voiceover + on-screen text)
 
 | Beat | Time | Content |
 |---|---|---|
@@ -107,7 +109,7 @@ The agent is **Claude Code running on a schedule in this repository**. The repo 
 | **Takeaway** | 28–35 s | One sentence to remember |
 | **Brand card** | last 3 s | Logo, handle, call to action |
 
-Fixed across every video: colour palette, typeface, logo position, caption safe zones, intro/outro sting.
+Fixed across every video: Obsidian background, Ivory text, Brass as the single accent (wave fronts, beams, highlights), Instrument Serif hooks with italic emphasis, Manrope capitals for labels, logo position, caption safe zones, intro/outro sting, one consistent narrator voice.
 
 ### Scene library (reusable building blocks)
 
@@ -158,7 +160,7 @@ A daily post = one scene + a spec file:
 
 ### Approval
 
-Start with **human approval on every post** (Metricool's review flow), move to autopilot per pillar once a pillar has two clean weeks. Proof & people posts always need approval because they involve real clients.
+Start with **the owner approving every post** (Metricool's review flow), move to autopilot per pillar once a pillar has two clean weeks. Proof & people posts always need approval because they involve real clients.
 
 ## 7. Repository layout
 
@@ -198,12 +200,23 @@ playbook.md     what the agent has learned (updated weekly)
 | Platform rate limits / API changes | Metricool as the single publishing layer; failures reported, never silently skipped |
 | Real footage dependence for "Proof & people" | Shared folder the team drops clips into; slot falls back to a know-how post if empty |
 
-## 10. Open questions — needed before phase 0 closes
+## 10. Decisions and open items
 
-1. **Accounts.** The connected Metricool and vidIQ workspaces currently hold only a brand called **whatiffun** (Instagram `whatiffun`, YouTube `@wiffun`). No Vital Acoustica accounts are connected. Do they exist yet, and on which platforms?
-2. **Platforms.** Instagram Reels + YouTube Shorts first, then LinkedIn / Facebook / TikTok? Which matter most for rental leads vs. plugin sales?
-3. **Company details.** Paste the "sound and light rental" chat content (or a summary) so `brand/company.md` is accurate.
-4. **Brand assets.** Logo files, colours, fonts, website, any existing posts to match.
-5. **Market.** City/region for rental, and whether plugins/connectors sell globally — this drives language, posting times and keywords.
-6. **Approval.** Who approves posts during the first weeks?
-7. **Voice.** Voiceover on videos, or text-on-screen with music only?
+### Decided
+
+| Topic | Decision |
+|---|---|
+| Platforms | Instagram Reels and YouTube Shorts first; X and LinkedIn added once the accounts are created |
+| Market | Karnataka for now — posting times and local keywords follow from this |
+| Approval | The owner approves every post |
+| Audio | Voiceover on every video |
+| Brand | Kit recorded in `brand/` |
+
+### Still open
+
+1. **Connect the accounts.** Metricool and vidIQ currently hold only the **whatiffun** brand. @vitalacoustica needs to be added as a brand in Metricool (and connected in vidIQ) before the agent can schedule, post or read analytics for it.
+2. **YouTube.** Does a Vital Acoustica YouTube channel exist for Shorts, or should one be created?
+3. **ElevenLabs.** No ElevenLabs connector is available in this workspace yet. Connect it, or use vidIQ's voiceover until then.
+4. **Logo files.** SVG or transparent PNG, light and dark versions.
+5. **Company details.** Named products (plugins, connectors), services list and typical customers, for the Products and Rental pillars.
+6. **Voice.** Narrator language(s) — English only, or Kannada as well? — and a preferred voice.
