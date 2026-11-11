@@ -1,6 +1,8 @@
 {
   "metricool_brand_id": 8029009,
-  "metricool_post_uuid": "-4182397536176946460",
   "publish_at": "2026-11-11T18:00:00+05:30",
-  "status": "scheduled"
+  "posts": [
+    { "networks": ["instagram:REEL", "youtube:short"], "metricool_post_uuid": "-4182397536176946460", "text": "caption", "status": "scheduled" },
+    { "networks": ["linkedin"], "metricool_post_uuid": "6387123198261153197", "text": "linkedin", "status": "scheduled" }
+  ]
 }
