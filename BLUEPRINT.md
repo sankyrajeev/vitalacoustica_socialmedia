@@ -112,7 +112,7 @@ Reels and Shorts get the same vertical video. LinkedIn gets the organiser and in
 | **Setup** | 2–8 s | The scene appears: speakers, room, fixture |
 | **Demo** | 8–28 s | The physics plays out — waves, particles, beams, with 2–3 labels |
 | **Takeaway** | 28–35 s | One sentence to remember |
-| **Brand card** | last 3 s | Logo, handle, call to action |
+| **Closing card** | last 3 s | Logo, a "follow for more" line, handle — nothing else |
 
 Fixed across every video: Obsidian background, Ivory text, Brass as the single accent (wave fronts, beams, highlights), Instrument Serif hooks with italic emphasis, Manrope capitals for labels, logo position, caption safe zones, intro/outro sting, one consistent narrator voice.
 
@@ -129,7 +129,7 @@ A daily post = one scene + a spec file:
   "params": { "sources": 2, "spacing_m": 1.7, "freq_hz": 100 },
   "labels": ["Peak meets trough", "Cancellation zone"],
   "takeaway": "Spacing is half a wavelength at 100 Hz — move them together.",
-  "cta": "Planning a night? Get a quote — link in bio."
+  "outro": "Follow for more *sound, explained.*"
 }
 ```
 
@@ -142,14 +142,14 @@ A daily post = one scene + a spec file:
 
 [Practical tip tied to rental or product]
 
-[CTA]
+[Follow line]
 
 [5–8 hashtags: 2 brand, 3 topic, 2–3 from keyword research]
 ```
 
 Voice: calm, confident, plain sentences, no hype and no exclamation marks — see `brand/company.md`.
 
-CTA options: "Get a quote — link in bio" · "WhatsApp us" · "Tell me when it's out" (shop teasers).
+Videos and captions end with a follow line ("Follow @vitalacoustica for more"), not a sales ask: no "get a quote" and no "link in bio".
 
 ## 6. Operating loops
 

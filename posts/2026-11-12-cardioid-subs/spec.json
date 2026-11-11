@@ -4,17 +4,55 @@
   "pillar": "sound-explained",
   "kicker": "Sound explained",
   "hook": "How do you keep the bass *off the stage?*",
-  "params": { "freq_hz": 60, "speed_of_sound": 343 },
-  "voice": { "voice_id": "JBFqnCBsd6RMkjVDRZzb", "model_id": "eleven_multilingual_v2" },
+  "params": {
+    "freq_hz": 60,
+    "speed_of_sound": 343
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
   "beats": [
-    { "id": "hook", "lead": 0.5, "say": "How do you keep the bass on the dance floor, and off the stage?" },
-    { "id": "omni", "say": "A subwoofer sends bass in every direction. Forward to the crowd, and backward, into every open microphone." },
-    { "id": "add", "say": "So we add a second sub behind it. Delayed, with its polarity flipped." },
-    { "id": "cancel", "hold": 0.9, "say": "Behind the stack, the two waves cancel. In front, they line up, and add." },
-    { "id": "takeaway", "hold": 0.6, "say": "It's called a cardioid sub array. More bass for the crowd. A cleaner stage for the artist." },
-    { "id": "outro", "lead": 0.5, "hold": 1.4, "say": "Vital Acoustica. Sound is felt." }
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How do you keep the bass on the dance floor, and off the stage?"
+    },
+    {
+      "id": "omni",
+      "say": "A subwoofer sends bass in every direction. Forward to the crowd, and backward, into every open microphone."
+    },
+    {
+      "id": "add",
+      "say": "So we add a second sub behind it. Delayed, with its polarity flipped."
+    },
+    {
+      "id": "cancel",
+      "hold": 0.9,
+      "say": "Behind the stack, the two waves cancel. In front, they line up, and add."
+    },
+    {
+      "id": "takeaway",
+      "hold": 0.6,
+      "say": "It's called a cardioid sub array. More bass for the crowd. A cleaner stage for the artist."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
   ],
-  "cta": "Get a quote · link in bio",
-  "caption": "How do you keep the bass on the dance floor and off the stage?\n\nA subwoofer sends low end in every direction, including backward into every open microphone.\nAdd a second sub behind it, delay it, flip its polarity.\nBehind the stack the two waves cancel. In front they add.\n\nIt is called a cardioid sub array, and our d&b B22 subs can be set up this way: more bass for the crowd, a cleaner stage for the artist.\n\nPlanning a night? Get a quote, link in bio.",
-  "hashtags": ["#vitalacoustica", "#soundisfelt", "#livesound", "#subwoofer", "#cardioid", "#proaudio", "#soundengineer", "#eventproduction"]
+  "caption": "How do you keep the bass on the dance floor and off the stage?\n\nA subwoofer sends low end in every direction, including backward into every open microphone.\nAdd a second sub behind it, delay it, flip its polarity.\nBehind the stack the two waves cancel. In front they add.\n\nIt is called a cardioid sub array, and our d&b B22 subs can be set up this way: more bass for the crowd, a cleaner stage for the artist.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#livesound",
+    "#subwoofer",
+    "#cardioid",
+    "#proaudio",
+    "#soundengineer",
+    "#eventproduction"
+  ],
+  "outro": "Follow for more *sound, explained.*"
 }

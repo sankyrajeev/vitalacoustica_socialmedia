@@ -38,7 +38,9 @@ Transparent PNGs in `brand/logo/`, trimmed to the artwork with a small margin.
 | `mark-white.png` | VA monogram — corner watermark and profile use on dark |
 | `mark-black.png` | VA monogram — on light backgrounds |
 
-Videos use the white monogram as a corner watermark and the white wordmark on the closing brand card.
+`wordmark-white-plain.png` and `wordmark-black-plain.png` are the same wordmark without the strapline.
+
+Videos use the white monogram as a corner watermark and the plain white wordmark on the closing card. The closing card carries only the logo, a "follow for more" line and the handle: no strapline, no quote request, no "link in bio".
 
 ## Voice
 

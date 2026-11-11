@@ -38,7 +38,6 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--
 
 .va-card { position: absolute; inset: 0; background: var(--va-obsidian); opacity: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 .va-card img { width: 760px; }
-.va-card .tagline { font-family: var(--va-font-heading); font-size: 64px; margin-top: 70px; }
+.va-card .tagline { font-family: var(--va-font-heading); font-size: 76px; line-height: 1.08; margin-top: 90px; text-align: center; padding: 0 90px; text-wrap: balance; }
 .va-card .rule { width: 80px; height: 2px; background: var(--va-brass); margin: 64px 0 40px; }
-.va-card .cta { font-size: 24px; color: var(--va-ivory); }
-.va-card .handle { font-size: 22px; color: var(--va-grey); margin-top: 22px; }
+.va-card .handle { font-size: 24px; color: var(--va-grey); }

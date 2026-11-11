@@ -34,10 +34,9 @@ export class Frame {
       <div class="va-takeaway va-heading">${mark(spec.takeaway || '')}</div>
       <div class="va-captions"><div></div></div>
       <div class="va-card">
-        <img src="/brand/logo/wordmark-white.png">
-        <div class="tagline va-heading">Sound is felt. <em>Light is experienced.</em></div>
+        <img src="/brand/logo/wordmark-white-plain.png">
+        <div class="tagline va-heading">${mark(spec.outro)}</div>
         <div class="rule"></div>
-        <div class="cta va-label">${spec.cta}</div>
         <div class="handle va-label">@vitalacoustica</div>
       </div>`);
     this.el = Object.fromEntries(['dim', 'hook', 'takeaway', 'captions', 'card'].map(k => [k, ui.querySelector('.va-' + k)]));
