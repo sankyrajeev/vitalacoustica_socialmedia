@@ -1,0 +1,44 @@
+/* Shared 1080x1920 frame: watermark, kicker, hook, captions, brand card. */
+@import url('/brand/tokens.css');
+@font-face { font-family: "Instrument Serif"; font-style: normal; font-weight: 400; src: url('/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: "Instrument Serif"; font-style: italic; font-weight: 400; src: url('/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2') format('woff2'); }
+@font-face { font-family: "Manrope"; font-weight: 400; src: url('/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: "Manrope"; font-weight: 600; src: url('/node_modules/@fontsource/manrope/files/manrope-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: "Manrope"; font-weight: 700; src: url('/node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff2') format('woff2'); }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--va-obsidian); color: var(--va-ivory); font-family: var(--va-font-body); }
+#stage { position: absolute; inset: 0; }
+#stage canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+#ui { position: absolute; inset: 0; pointer-events: none; }
+#ui em { font-style: italic; color: var(--va-brass); }
+
+.va-mark { position: absolute; left: 64px; top: 150px; height: 44px; }
+.va-kicker { position: absolute; left: 164px; top: 162px; font-size: 22px; color: var(--va-grey); }
+.va-kicker b { color: var(--va-brass); font-weight: 600; }
+
+.va-dim { position: absolute; inset: 0; background: var(--va-obsidian); opacity: 0; }
+.va-floor { position: absolute; left: 0; right: 0; top: 1240px; bottom: 0; background: linear-gradient(to bottom, rgba(16,16,16,0) 0, rgba(16,16,16,0.94) 190px, var(--va-obsidian) 320px); }
+.va-hook { position: absolute; left: 80px; right: 80px; top: 560px; font-size: 132px; line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; }
+.va-takeaway { position: absolute; left: 80px; right: 80px; top: 300px; font-size: 84px; line-height: 1.06; text-wrap: balance; opacity: 0; }
+
+/* Captions sit above the area Reels and Shorts cover with their own buttons. */
+.va-captions { position: absolute; left: 90px; right: 90px; top: 1395px; height: 150px; display: flex; align-items: center; justify-content: center; text-align: center; font-weight: 600; font-size: 50px; line-height: 1.22; letter-spacing: -0.005em; }
+.va-captions span { color: var(--va-grey); }
+.va-captions span.on { color: var(--va-ivory); }
+
+.va-tag { position: absolute; top: 262px; width: 300px; white-space: nowrap; text-align: center; opacity: 0; }
+.va-tag.left { left: 120px; } .va-tag.right { right: 120px; }
+.va-tag .va-label { font-size: 22px; color: var(--va-grey); display: block; }
+.va-tag .val { font-family: var(--va-font-heading); font-size: 76px; line-height: 1; display: block; margin-top: 6px; }
+.va-tag .bar { width: 220px; height: 4px; background: rgba(240, 237, 229, 0.14); margin: 14px auto 0; position: relative; }
+.va-tag .bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--va-brass); }
+.va-note { position: absolute; transform: translate(0, -50%); white-space: nowrap; font-size: 19px; color: var(--va-grey); opacity: 0; line-height: 1.75; padding: 14px 22px; border-left: 2px solid var(--va-brass); background: rgba(16, 16, 16, 0.86); }
+.va-note b { color: var(--va-brass); font-weight: 600; }
+
+.va-card { position: absolute; inset: 0; background: var(--va-obsidian); opacity: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.va-card img { width: 760px; }
+.va-card .tagline { font-family: var(--va-font-heading); font-size: 64px; margin-top: 70px; }
+.va-card .rule { width: 80px; height: 2px; background: var(--va-brass); margin: 64px 0 40px; }
+.va-card .cta { font-size: 24px; color: var(--va-ivory); }
+.va-card .handle { font-size: 22px; color: var(--va-grey); margin-top: 22px; }

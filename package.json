@@ -1,0 +1,15 @@
+{
+  "name": "vitalacoustica-socialmedia",
+  "private": true,
+  "description": "Vital Acoustica social media agent: spec-driven video renderer and content pipeline",
+  "scripts": {
+    "voice": "node renderer/voice.cjs",
+    "render": "node renderer/render.cjs",
+    "still": "node renderer/render.cjs --still"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "^5.0.0",
+    "@fontsource/manrope": "^5.0.0",
+    "three": "^0.170.0"
+  }
+}
