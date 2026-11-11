@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-beam-throw",
+  "scene": "beam-throw",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why does light look weaker at *the back of the room?*",
+  "params": {
+    "beam_angle_deg": 20,
+    "throw_m": [
+      5,
+      10
+    ]
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does the same light look weaker at the back of the room?"
+    },
+    {
+      "id": "cone",
+      "say": "A fixture sends light out in a cone. Its beam angle is fixed, so the further it travels, the wider the spot."
+    },
+    {
+      "id": "double",
+      "hold": 0.5,
+      "say": "Twice the distance, and the spot is twice as wide. That's four times the area."
+    },
+    {
+      "id": "dim",
+      "say": "The same light, spread four times as thin. Each part gets a quarter as much."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why throw decides the fixture. Narrow beams for long distances. Wide beams up close."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why does the same light look weaker at the back of the room?\n\nA fixture sends light out in a cone with a fixed beam angle. The further it travels, the wider the spot.\nTwice the distance: twice as wide, four times the area, a quarter of the light on each part.\n\nIt's the same law that makes sound fade with distance. And it's why throw decides the fixture: narrow beams for long distances, wide beams up close.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#stagelighting",
+    "#lightingdesign",
+    "#beamangle",
+    "#lightingtech",
+    "#eventproduction",
+    "#movingheads"
+  ],
+  "youtube_title": "Why does light look weaker at the back of the room? Beam angle and throw",
+  "linkedin": "Why does the same light look weaker at the back of the room?\n\nEvery fixture sends its light out in a cone, and the beam angle of that cone is fixed. The further the light travels, the wider the cone and the bigger the spot. Twice the distance gives a spot twice as wide, and four times the area.\n\nThe fixture's output hasn't changed, so the same light now covers four times the surface, and each part of the spot gets a quarter of what it did. It is the same inverse-square law that makes sound fade with distance, and it is why throw distance, how far a light has to reach, comes first when choosing fixtures.\n\nWhat that means for an event:\n\n1. Know the throw before choosing fixtures. A light that looks strong at five metres can look washed out at fifteen.\n\n2. Use narrow beams for long throws. A tighter beam angle keeps the spot small and the light concentrated at a distance.\n\n3. Use wide beams up close. Over short distances a narrow beam lights only a small patch; a wider one covers the stage or the crowd evenly.\n\nThe trade-off: a narrow beam covers less. Lighting a wide area from far away takes more fixtures, or brighter ones, and that belongs in the plan from the start, not in a surprise at rehearsal.\n\nThe short video shows one fixture with one beam angle, and a surface moving from five metres to ten: the spot doubles in width and drops to a quarter of the brightness.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-12-inverse-square",
+  "scene": "inverse-square",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why does a speaker fade *so fast?*",
+  "params": {
+    "distances_m": [
+      1,
+      2,
+      4
+    ],
+    "particles": 4200
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a speaker get so much quieter, so quickly, as you walk away?"
+    },
+    {
+      "id": "spread",
+      "say": "Sound spreads out from the speaker, like a growing sphere."
+    },
+    {
+      "id": "double",
+      "say": "At one metre, its energy passes through this square. At two metres, the same energy covers four."
+    },
+    {
+      "id": "level",
+      "hold": 0.6,
+      "say": "A quarter in each. In open air, that's six decibels quieter, every time the distance doubles."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "It's the inverse-square law. And it's why the back of a big crowd needs its own speakers, not a louder stage."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why does a speaker get so much quieter, so quickly, as you walk away?\n\nSound spreads out. At one metre the energy passes through one square; at two metres the same energy covers four.\nA quarter in each, which in open air is about 6 dB quieter every time the distance doubles.\n\nIt's the inverse-square law, and it's why the back of a big crowd needs its own speakers, not a louder stage.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#livesound",
+    "#proaudio",
+    "#soundengineer",
+    "#acoustics",
+    "#eventproduction",
+    "#inversesquarelaw"
+  ],
+  "youtube_title": "Why does a speaker fade so fast? The inverse-square law explained",
+  "linkedin": "Why does a speaker get so much quieter, so quickly, as you walk away from it?\n\nSound spreads out. From a speaker, the energy travels outward over an ever-growing area, and the further it goes, the more area it has to cover. Double the distance and that area is four times bigger, so every square metre gets a quarter of the energy.\n\nA quarter of the energy is about 6 dB. So in open air, every time you double the distance from a speaker, the level drops by roughly 6 dB. Two metres to four, ten to twenty, fifty to a hundred: the same drop each time. This is the inverse-square law.\n\nWhat it means when you plan an event:\n\n1. Turning the main system up is the wrong fix for the back of a large crowd. By the time the back is loud enough, the front is far too loud.\n\n2. Plan around distance, not only headcount. A long, narrow venue needs a different system from a wide, shallow one with the same capacity.\n\n3. This is what delay speakers are for. A second set of speakers part way back, timed to line up with the main system, keeps the level even from front to back.\n\nThe honest limit: the 6 dB figure is for open air and a compact source. Indoors, reflections from walls and ceiling add some level back, so the drop is usually smaller. Line arrays are built to lose less level with distance over part of their range. The principle still shapes the layout.\n\nThe short video shows the idea: the same energy covering one square at one metre, four at two metres, and sixteen at four.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #soundengineering"
+}

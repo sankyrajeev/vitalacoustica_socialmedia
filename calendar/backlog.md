@@ -7,7 +7,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 ## Sound
 
 - [x] E — Cardioid sub arrays: keeping bass off the stage → `posts/2026-11-12-cardioid-subs`
-- [ ] E — Inverse-square law: why doubling the distance costs 6 dB
+- [x] E — Inverse-square law: why doubling the distance costs 6 dB → `posts/2026-11-12-inverse-square`
 - [ ] E — Phase cancellation: two speakers, one dead spot
 - [ ] K — How much PA for 300 people: what actually decides it (room, crowd, music), no fixed numbers
 - [ ] E — Why your chest feels the kick: wavelength of 50 Hz against the size of a body
@@ -24,7 +24,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 ## Light
 
 - [x] E — Why haze makes beams visible → `posts/2026-11-11-haze-beams`
-- [ ] E — Beam angle and throw: the same light, twice as far, four times the area
+- [x] E — Beam angle and throw: the same light, twice as far, four times the area → `posts/2026-11-12-beam-throw`
 - [ ] E — Additive colour: how red, green and blue LEDs make white (and why RGBW adds a white one)
 - [ ] G — Blinders: why a wall of warm light on the drop works (the eye adapts to the dark first)
 - [ ] E — Cold white and warm white: colour temperature, and mixing the two in one bar
