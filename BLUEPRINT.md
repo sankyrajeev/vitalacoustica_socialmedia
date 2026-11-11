@@ -18,13 +18,14 @@ Everything follows a fixed **template system** (section 5) so the feed looks lik
 
 ## 2. Company profile
 
-- **Vital Acoustica** — professional sound and lighting hire, with the crew to run it
+- **Vital Acoustica** — sound and lighting rental and production, with the crew to run it; d&b audiotechnik systems, beam and LED lighting
 - Tagline: *Sound is felt. Light is experienced.*
-- Also builds **software plugins**, **lighting connectors** and other audio/lighting hardware and software
-- Market: **Karnataka** for now
-- Website: https://vitalacoustica.com · Instagram: @vitalacoustica
+- Five disciplines: **Sound, Light, Visuals, Production, Installations**
+- Events: club nights, concerts, festivals, brand events, private celebrations — **Karnataka** for now
+- Software and hardware launching soon: **VANTA** (synth plugin), **VANTA Dynamics**, **ORBIT** (mixing system), **Lumière Link** (lighting that follows the DJ), **Lumière Resident** (venue lighting box), plus merch, audio packs and VJ loops
+- Website: https://vitalacoustica.com · Instagram, X: @vitalacoustica
 
-Full brand kit (colours, fonts) is in [`brand/brand-kit.md`](brand/brand-kit.md); the same values as CSS tokens for the renderer are in [`brand/tokens.css`](brand/tokens.css).
+Details: [`brand/company.md`](brand/company.md) (services, full equipment list, products, voice) · [`brand/brand-kit.md`](brand/brand-kit.md) (colours, fonts, logos) · [`brand/tokens.css`](brand/tokens.css) (the same values for the renderer).
 
 ## 3. Architecture
 
@@ -57,17 +58,18 @@ flowchart LR
 
 The agent is **Claude Code running on a schedule in this repository**. The repo is its memory: brand rules, templates, the calendar, every post it made, and every metric it pulled are files here. Each scheduled run reads state, does one job, commits the result.
 
-### Tools (already connected to this workspace)
+### Tools
 
-| Capability | Tool | Used for |
+| Capability | Tool | Status |
 |---|---|---|
-| Scheduling, publishing, analytics | **Metricool** | Schedule posts (with or without review step), best-time-to-post, per-network metrics |
-| Keywords, competitors, trends | **vidIQ** | Keyword research, outlier videos, similar channels, competitor lists, Instagram/TikTok outliers, title scoring |
-| Video rendering | **Code in this repo** | Three.js (3D) + a physics engine + GSAP (motion), rendered headless to MP4 |
-| Voiceover | **ElevenLabs** (not yet connected to this workspace — vidIQ voiceover is the fallback) | Narration on every video |
-| Music | **vidIQ** | Background music bed |
-| Stills, thumbnails, b-roll | **OpenArt** | Generated images where code-rendered visuals are not enough |
-| Hosted video projects | **HyperFrames** | Optional: shareable, cloud-rendered versions of a composition |
+| Scheduling, publishing, analytics, best time to post | **Metricool** — brand "Vital Acoustica" | Connected: Instagram, YouTube, LinkedIn. X to be added |
+| Competitor tracking | **Metricool** competitors (Instagram, YouTube) | Available once competitors are added to the brand |
+| Keyword and trend research | **Web search** + our own post analytics + industry news (FOH Online, ProSoundWeb, already linked from the site journal) | Available |
+| Video rendering | **Code in this repo** — Three.js (3D) + a physics engine + GSAP (motion), rendered headless to MP4 | To build (phase 1) |
+| Voiceover | **ElevenLabs** | Not connected yet — required |
+| Stills, thumbnails | **OpenArt** | Connected, used sparingly |
+
+vidIQ is **not used**: the account is unavailable, so nothing in this plan depends on it.
 
 ### Why code-rendered video
 
@@ -79,23 +81,26 @@ The agent is **Claude Code running on a schedule in this repository**. The repo 
 
 | Pillar | Share | Examples |
 |---|---|---|
-| **Sound physics explained** | 35% | Why line arrays curve · inverse-square law · phase cancellation · cardioid sub arrays · room modes · delay towers |
-| **Light explained** | 20% | Beam angle vs. throw distance · DMX in 30 seconds · colour mixing · haze and why beams appear |
-| **Products & builds** | 20% | Plugin features · lighting connector demos · "how we built it" |
-| **Rental & event know-how** | 15% | How much PA for 200 people · power planning · rigging checklist · common mistakes |
-| **Proof & people** | 10% | Event recaps, client results, behind the scenes (needs real footage from the team) |
+| **Sound explained** | 30% | Why a cardioid sub array keeps bass off the stage (B22-SUB) · point source vs. line array (V10P) · phase cancellation · inverse-square law · room modes · why tuning matters |
+| **Light explained** | 20% | Why haze makes beams visible · beam angle vs. throw · blinders on the drop · cold vs. warm white · pixel mapping |
+| **Know-how for organisers** | 20% | How much PA for 300 people · what a tech rider is · what "delivery, setup and tuning" involves · the four-step hire process |
+| **Gear close-ups** | 10% | One item from the rental list per post, as a 3D turntable with what it is for |
+| **Coming soon: software and shop** | 10% | Teasers for VANTA, ORBIT, Lumière Link, Lumière Resident — tease only until launch |
+| **Proof and story** | 10% | Event recaps, testimonials, the founders' story (needs real footage from the team) |
 
 ### Weekly rhythm (draft)
 
 | Day | Slot |
 |---|---|
-| Mon | Sound physics explainer |
-| Tue | Product / plugin feature |
-| Wed | Light explainer |
-| Thu | Rental know-how ("how much PA do I need…") |
-| Fri | Sound physics explainer (trend- or keyword-led) |
-| Sat | Event / behind the scenes |
-| Sun | Myth vs. fact or quiz |
+| Mon | Sound explained |
+| Tue | Know-how for organisers |
+| Wed | Light explained |
+| Thu | Gear close-up |
+| Fri | Sound explained (trend- or question-led) |
+| Sat | Proof and story (real footage; falls back to know-how) |
+| Sun | Coming-soon teaser, or myth vs. fact |
+
+Reels and Shorts get the same vertical video. LinkedIn gets the organiser and installation posts with a longer, more professional caption. X gets a short text version with the clip.
 
 ## 5. Template system
 
@@ -113,7 +118,7 @@ Fixed across every video: Obsidian background, Ivory text, Brass as the single a
 
 ### Scene library (reusable building blocks)
 
-`wave-propagation` · `interference` · `line-array-coverage` · `sub-array-polar` · `room-modes` · `beam-cone` · `colour-mix` · `dmx-signal-chain` · `product-turntable` · `number-comparison`
+`product-3d` (models of the real rental gear) · `wave-propagation` · `interference` · `line-array-coverage` · `sub-array-polar` · `room-modes` · `beam-cone` · `colour-mix` · `dmx-signal-chain` · `product-turntable` · `number-comparison`
 
 A daily post = one scene + a spec file:
 
@@ -124,7 +129,7 @@ A daily post = one scene + a spec file:
   "params": { "sources": 2, "spacing_m": 1.7, "freq_hz": 100 },
   "labels": ["Peak meets trough", "Cancellation zone"],
   "takeaway": "Spacing is half a wavelength at 100 Hz — move them together.",
-  "cta": "Planning an event? Link in bio."
+  "cta": "Planning a night? Get a quote — link in bio."
 }
 ```
 
@@ -139,7 +144,13 @@ A daily post = one scene + a spec file:
 
 [CTA]
 
-[5–8 hashtags: 2 brand, 3 topic, 2–3 keyword-research driven]
+[5–8 hashtags: 2 brand, 3 topic, 2–3 from keyword research]
+```
+
+Voice: calm, confident, plain sentences, no hype and no exclamation marks — see `brand/company.md`.
+
+```
+CTA options: "Get a quote — link in bio" · "WhatsApp us" · "Tell me when it's out" (shop teasers)
 ```
 
 ## 6. Operating loops
@@ -148,7 +159,7 @@ A daily post = one scene + a spec file:
 |---|---|---|---|
 | **Daily produce** | Every day, early | Take today's calendar slot → write spec → render video → quality gate → send to approval queue / schedule | `posts/YYYY-MM-DD/` |
 | **Daily measure** | Every day, late | Pull metrics for posts from the last 7 days | `analytics/daily/` |
-| **Weekly plan** | Sunday | Analytics review + keyword scan + competitor outliers → next week's calendar | `calendar/YYYY-Www.md`, `reports/weekly/` |
+| **Weekly plan** | Sunday | Analytics review + web keyword scan + competitor posts that over-performed → next week's calendar | `calendar/YYYY-Www.md`, `reports/weekly/` |
 | **Monthly research** | 1st of month | Refresh competitor list, pillar performance, keyword bank; propose strategy changes | `research/`, `reports/monthly/` |
 
 ### Quality gate (before anything is queued)
@@ -197,6 +208,7 @@ playbook.md     what the agent has learned (updated weekly)
 | Technically wrong explainer damages credibility with audio professionals | Fact sheet + quality gate; approval stays on for physics content until trusted |
 | Feed feels repetitive | Scene library grows monthly; duplicate check; Saturday slot uses real footage |
 | Media hosting — schedulers need a public URL for each video | Resolve in phase 3 (to be tested, not yet verified) |
+| No dedicated keyword tool (vidIQ unavailable) | Web search plus our own analytics; revisit if research proves too thin |
 | Platform rate limits / API changes | Metricool as the single publishing layer; failures reported, never silently skipped |
 | Real footage dependence for "Proof & people" | Shared folder the team drops clips into; slot falls back to a know-how post if empty |
 
@@ -206,7 +218,8 @@ playbook.md     what the agent has learned (updated weekly)
 
 | Topic | Decision |
 |---|---|
-| Platforms | Instagram Reels and YouTube Shorts first; X and LinkedIn added once the accounts are created |
+| Platforms | Instagram Reels and YouTube Shorts first, LinkedIn alongside (all three connected in Metricool); X once it is added to Metricool |
+| Research | No vidIQ — Metricool competitors, web search and our own analytics |
 | Market | Karnataka for now — posting times and local keywords follow from this |
 | Approval | The owner approves every post |
 | Audio | Voiceover on every video |
@@ -216,6 +229,7 @@ playbook.md     what the agent has learned (updated weekly)
 
 ### Still open
 
-1. **Connect the accounts.** Metricool and vidIQ currently hold only the **whatiffun** brand. The Vital Acoustica Instagram and YouTube accounts need to be added as a brand in Metricool (and connected in vidIQ) before the agent can schedule, post or read analytics for them.
-2. **ElevenLabs.** No ElevenLabs connector is available in this workspace yet. Connect it, or use vidIQ's voiceover until then.
-3. **What we sell.** A plain list of what to promote: the rental gear and services on offer, and the name and one-line description of each plugin and connector. Needed for the Products and Rental pillars; the physics explainers can start without it.
+1. **ElevenLabs.** Needed for voiceover and not yet connected.
+2. **X.** The site links an X profile; add it to the Vital Acoustica brand in Metricool when ready.
+3. **Competitors.** A starting list of 5–10 accounts to track (other Karnataka rental houses, plus international accounts whose content style we like). The agent can propose one.
+4. **Real footage.** Where the team will drop event clips for the Saturday slot.
