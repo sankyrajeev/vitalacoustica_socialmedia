@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-haze-beams",
+  "scene": "haze-beams",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why can you see a beam *in mid-air?*",
+  "params": { "beam_half_angle_deg": 2.4, "particles": 52000 },
+  "voice": { "voice_id": "JBFqnCBsd6RMkjVDRZzb", "model_id": "eleven_multilingual_v2" },
+  "beats": [
+    { "id": "hook", "lead": 0.5, "say": "Why can you see a beam of light in mid-air?" },
+    { "id": "dark", "say": "Light travels in a straight line, and from the side, it's invisible. All you see is the spot where it lands." },
+    { "id": "haze", "say": "Now add haze. Millions of tiny droplets, hanging in the air." },
+    { "id": "scatter", "hold": 0.8, "say": "Each one in the beam's path scatters a little light toward your eyes. And the beam appears." },
+    { "id": "takeaway", "hold": 1.6, "say": "Haze doesn't add light. It reveals the light that's already there." },
+    { "id": "outro", "lead": 0.5, "hold": 1.4, "say": "Follow Vital Acoustica for more." }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why can you see a beam of light in mid-air?\n\nLight travels in a straight line, and from the side it is invisible. All you see is the spot where it lands.\nAdd haze: tiny droplets hanging in the air.\nEach one in the beam's path scatters a little light toward your eyes, and the beam appears.\n\nHaze doesn't add light. It reveals the light that's already there.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": ["#vitalacoustica", "#lightisexperienced", "#stagelighting", "#lightingdesign", "#haze", "#movingheads", "#eventproduction", "#lightingtech"],
+  "youtube_title": "Why can you see a beam of light in mid-air? Haze explained"
+}
