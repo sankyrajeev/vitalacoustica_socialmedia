@@ -197,10 +197,10 @@ playbook.md     what the agent has learned (updated weekly)
 | **0. Foundations** | Brand files, accounts connected, platforms chosen | Section 10 questions answered |
 | **1. Renderer spike** | One scene (`interference`) rendered to a 30 s vertical MP4 from a spec | Video plays correctly on a phone and looks on-brand |
 | **2. Template system** | Beat template, brand card, 4 scenes, caption generator | 7 varied videos produced from specs alone |
-| **3. Publish path** | Spec → render → approval → scheduled post | One real post goes live through the pipeline |
+| **3. Publish path** | Spec → render → scheduled post | One real post goes live through the pipeline |
 | **4. Research** | Competitor list, keyword bank, weekly plan loop | Agent writes next week's calendar unaided |
 | **5. Analytics & learning** | Daily pulls, weekly report, playbook updates | Report explains what worked and changes the plan |
-| **6. Automation** | Scheduled runs for all four loops | A full week runs with approvals only |
+| **6. Automation** | Scheduled runs for all four loops | A full week runs unattended |
 
 ## 9. Risks
 
