@@ -8,7 +8,7 @@ An agent ("the manager") that runs Vital Acoustica's social media end to end:
 
 | Job | What it means in practice |
 |---|---|
-| **Create** | One post per day: an educational or product video (code-rendered 3D / motion / physics), caption, hashtags, thumbnail |
+| **Create** | Two posts per day, one on sound and one on light: each an educational or product video (code-rendered 3D / motion / physics), caption, hashtags, thumbnail |
 | **Schedule & post** | Queue each post at the best time per network, publish automatically |
 | **Analyze** | Pull performance daily, write a weekly report, learn what works |
 | **Find competitors** | Discover and track similar accounts, spot their outlier posts |
@@ -77,30 +77,33 @@ vidIQ is **not used**: the account is unavailable, so nothing in this plan depen
 
 ## 4. Content strategy
 
-### Pillars
+### Two posts a day: one sound, one light
 
-| Pillar | Share | Examples |
+Every day carries a **sound** post and a **light** post. Each side rotates through the same kinds of post, so the feed alternates between the two halves of the company without repeating itself.
+
+| Kind of post | Sound side — examples | Light side — examples |
 |---|---|---|
-| **Sound explained** | 30% | Why a cardioid sub array keeps bass off the stage (B22-SUB) · point source vs. line array (V10P) · phase cancellation · inverse-square law · room modes · why tuning matters |
-| **Light explained** | 20% | Why haze makes beams visible · beam angle vs. throw · blinders on the drop · cold vs. warm white · pixel mapping |
-| **Know-how for organisers** | 20% | How much PA for 300 people · what a tech rider is · what "delivery, setup and tuning" involves · the four-step hire process |
-| **Gear close-ups** | 10% | One item from the rental list per post, as a 3D turntable with what it is for |
-| **Coming soon: software and shop** | 10% | Teasers for VANTA, ORBIT, Lumière Link, Lumière Resident — tease only until launch |
-| **Proof and story** | 10% | Event recaps, testimonials, the founders' story (needs real footage from the team) |
+| **Explained** (most days) | Cardioid sub arrays · point source vs. line array · phase cancellation · inverse-square law · room modes · why tuning matters | Why haze makes beams visible · beam angle vs. throw · blinders on the drop · cold vs. warm white · pixel mapping · how DMX works |
+| **Know-how for organisers** | How much PA for 300 people · what a tech rider is · what setup and tuning involves | How much lighting a room needs · what a lighting operator does · power planning |
+| **Gear close-up** | V10P · B22-SUB · ART 915-A · DM3 · CDJ-3000X · DJM-V10-LF · SM58 | Beam moving heads · retro fan, hex and Warcraft lights · RGBW blinder · COB light · matrix panel · pixel bar · haze |
+| **Coming soon** (tease only until launch) | VANTA · VANTA Dynamics · ORBIT | Lumière Link · Lumière Resident |
+| **Proof and story** (needs real footage) | Event recaps, testimonials, the founders' story | The same, from the lighting side |
 
 ### Weekly rhythm (draft)
 
-| Day | Slot |
-|---|---|
-| Mon | Sound explained |
-| Tue | Know-how for organisers |
-| Wed | Light explained |
-| Thu | Gear close-up |
-| Fri | Sound explained (trend- or question-led) |
-| Sat | Proof and story (real footage; falls back to know-how) |
-| Sun | Coming-soon teaser, or myth vs. fact |
+| Day | Sound post | Light post |
+|---|---|---|
+| Mon | Explained | Explained |
+| Tue | Know-how | Gear close-up |
+| Wed | Explained | Explained |
+| Thu | Gear close-up | Know-how |
+| Fri | Explained (trend- or question-led) | Explained |
+| Sat | Proof and story (falls back to Explained) | Proof and story (falls back to Explained) |
+| Sun | Coming soon, or myth vs. fact | Coming soon, or myth vs. fact |
 
-Reels and Shorts get the same vertical video. LinkedIn gets the organiser and installation posts with a longer, more professional caption. X gets a short text version with the clip.
+The two posts go out at different times of day, at the best slots Metricool reports. Reels and Shorts get the same vertical video. LinkedIn gets the organiser and installation posts with a longer caption. X gets a short text version with the clip.
+
+Fourteen videos a week is about 6,000 characters of narration (roughly 26,000 a month); the ElevenLabs plan has to cover that.
 
 ## 5. Template system
 
@@ -155,7 +158,7 @@ Videos and captions end with a follow line ("Follow @vitalacoustica for more"), 
 
 | Loop | When | What the agent does | Output |
 |---|---|---|---|
-| **Daily produce** | Every day, early | Take today's calendar slot → write spec → render video → quality gate → send to approval queue / schedule | `posts/YYYY-MM-DD/` |
+| **Daily produce** | Every day, early | Take today's sound slot and light slot → write specs → render both videos → quality gate → schedule both | `posts/YYYY-MM-DD/` |
 | **Daily measure** | Every day, late | Pull metrics for posts from the last 7 days | `analytics/daily/` |
 | **Weekly plan** | Sunday | Analytics review + web keyword scan + competitor posts that over-performed → next week's calendar | `calendar/YYYY-Www.md`, `reports/weekly/` |
 | **Monthly research** | 1st of month | Refresh competitor list, pillar performance, keyword bank; propose strategy changes | `research/`, `reports/monthly/` |
@@ -169,7 +172,7 @@ Videos and captions end with a follow line ("Follow @vitalacoustica for more"), 
 
 ### Approval
 
-Start with **the owner approving every post** (Metricool's review flow), move to autopilot per pillar once a pillar has two clean weeks. Proof & people posts always need approval because they involve real clients.
+**No approval step.** The owner has asked the agent to publish on its own. A post that passes the quality gate is scheduled directly; a post that fails is held back and reported, never published anyway. Two exceptions still wait for a person: posts that name or quote a client, and anything about pricing or a product launch date.
 
 ## 7. Repository layout
 
@@ -203,9 +206,9 @@ playbook.md     what the agent has learned (updated weekly)
 
 | Risk | Mitigation |
 |---|---|
-| Technically wrong explainer damages credibility with audio professionals | Fact sheet + quality gate; approval stays on for physics content until trusted |
+| Technically wrong explainer damages credibility with audio professionals, with no human check before it goes out | Fact sheet + quality gate; every figure on screen is computed or sourced, never guessed; the weekly report lists what was published so errors are caught fast |
 | Feed feels repetitive | Scene library grows monthly; duplicate check; Saturday slot uses real footage |
-| Media hosting — schedulers need a public URL for each video | Resolve in phase 3 (to be tested, not yet verified) |
+| Media hosting — Metricool needs a public URL for each video, and this repository is private | **Open: blocks publishing.** Needs a public place for finished videos |
 | No dedicated keyword tool (vidIQ unavailable) | Web search plus our own analytics; revisit if research proves too thin |
 | Platform rate limits / API changes | Metricool as the single publishing layer; failures reported, never silently skipped |
 | Real footage dependence for "Proof & people" | Shared folder the team drops clips into; slot falls back to a know-how post if empty |
@@ -219,7 +222,8 @@ playbook.md     what the agent has learned (updated weekly)
 | Platforms | Instagram Reels and YouTube Shorts first, LinkedIn alongside (all three connected in Metricool); X once it is added to Metricool |
 | Research | No vidIQ — Metricool competitors, web search and our own analytics |
 | Market | Karnataka for now — posting times and local keywords follow from this |
-| Approval | The owner approves every post |
+| Approval | None — the agent publishes on its own once a post passes the quality gate |
+| Cadence | Two posts a day: one sound, one light |
 | Audio | Voiceover on every video |
 | Brand | Kit and logo files recorded in `brand/` |
 | Language | English only |
