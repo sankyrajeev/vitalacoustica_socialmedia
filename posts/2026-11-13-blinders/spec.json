@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-13-blinders",
+  "scene": "blinder",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why do blinders feel so bright *on the drop?*",
+  "params": {
+    "pupil_bright_mm": 2,
+    "pupil_start_mm": 3.5,
+    "pupil_dark_mm": 8,
+    "iris_mm": 12
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a blinder feel so bright on the drop?"
+    },
+    {
+      "id": "dark",
+      "say": "Before the drop, the room goes dark. Your pupils open wide to catch what little light there is."
+    },
+    {
+      "id": "open",
+      "hold": 0.6,
+      "say": "Fully open, a pupil is about eight millimetres across. That's sixteen times the area of a two millimetre pupil in bright light."
+    },
+    {
+      "id": "hit",
+      "hold": 0.8,
+      "say": "So when the blinders hit, your eyes are wide open. For a moment, far more of that light gets in."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.4,
+      "say": "The dark before the drop isn't a pause. It's what makes the hit land."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why does a blinder feel so bright on the drop?\n\nBefore the drop the room goes dark, and your pupils open wide.\nFully open, a pupil is about 8 mm across: sixteen times the area of a 2 mm pupil in bright light.\nSo when the blinders hit, your eyes are wide open, and for a moment far more of that light gets in.\n\nThe dark before the drop isn't a pause. It's what makes the hit land.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#stagelighting",
+    "#lightingdesign",
+    "#blinders",
+    "#thedrop",
+    "#lightingtech",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do blinders feel so bright on the drop? Your pupils explained",
+  "linkedin": "Why does a blinder feel so bright on the drop?\n\nPart of the answer is the fixture. Most of it is the audience's eyes.\n\nYour pupils adjust to the light around you. In a bright room they close down, to around two millimetres across. In the dark they open up, to about eight millimetres. Because the light that gets in depends on the pupil's area, a fully open pupil lets in roughly sixteen times as much as a two millimetre one.\n\nSo when a room goes dark before the drop, every pair of eyes in it is opening wide. When the blinders hit, that light arrives at eyes set up for darkness, and for a moment far more of it gets in. Then the pupils close down and the eyes catch up. That moment is the hit.\n\nWhat that means for lighting a show:\n\n1. The dark before the drop is part of the cue. Pulling the levels down in the build is what gives the blinders their impact; a room already full of light leaves them less to work with.\n\n2. Contrast matters more than raw output. A modest fixture into a dark room can land harder than a powerful one into a bright room.\n\n3. Use it sparingly. If the blinders fire constantly, eyes never get the chance to open again, and the effect stops working.\n\nThe honest limit: comfort and safety still come first. A blinder hit should be brief, aimed with care, and never held on the crowd.\n\nThe short video shows the cycle: the room goes dark, the pupil opens, the blinders hit, and the pupil closes back down.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

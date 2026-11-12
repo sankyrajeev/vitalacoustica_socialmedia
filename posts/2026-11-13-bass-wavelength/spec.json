@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-13-bass-wavelength",
+  "scene": "wavelength",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why do you feel the kick *in your chest?*",
+  "params": {
+    "f_start_hz": 5000,
+    "f_end_hz": 50,
+    "speed_of_sound": 343,
+    "person_m": 1.7
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why do you feel the kick drum in your chest?"
+    },
+    {
+      "id": "size",
+      "say": "Sound travels in waves. High notes are tiny, just a few centimetres from one peak to the next."
+    },
+    {
+      "id": "sweep",
+      "hold": 0.5,
+      "say": "But the lower the note, the longer the wave. At fifty hertz, down where a kick drum's weight sits, one wave is almost seven metres long."
+    },
+    {
+      "id": "feel",
+      "hold": 0.6,
+      "say": "Four times taller than you. You're standing inside a single wave of pressure, pushing and pulling on your whole body."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why bass is felt as much as heard. And why it takes big subwoofers to move that much air."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why do you feel the kick drum in your chest?\n\nSound travels in waves. High notes are tiny: a few centimetres from one peak to the next.\nThe lower the note, the longer the wave. At 50 Hz, where a kick drum's weight sits, one wave is almost seven metres long.\n\nFour times taller than you. You are standing inside a single wave of pressure, pushing and pulling on your whole body. That's why bass is felt as much as heard.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#bass",
+    "#subwoofer",
+    "#livesound",
+    "#proaudio",
+    "#acoustics",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do you feel the kick drum in your chest? Bass wavelength explained",
+  "linkedin": "Why do you feel the kick drum in your chest, not just hear it?\n\nSound travels as waves of pressure, and the distance from one peak to the next, the wavelength, depends on the pitch. Divide the speed of sound, about 343 metres per second, by the frequency and you get the wavelength. At 10,000 hertz that is around three centimetres. At 50 hertz, down where the weight of a kick drum sits, it is almost seven metres.\n\nThat is four times the height of a person. At those lengths you are not catching a ripple with your ears; you are standing inside one slow wave of pressure that pushes and pulls on your whole body. When there is enough of it, you feel it.\n\nWhat that means for an event:\n\n1. Low frequencies need size. Moving that much air takes large drivers and cabinets, which is why the subwoofers are the biggest boxes in a system.\n\n2. Bass doesn't stay where you point it. Waves several metres long spread around obstacles and in every direction, which is why controlling bass on stage takes deliberate system design rather than simply aiming the boxes.\n\n3. Rooms shape bass more than anything else. When the wavelength is comparable to the size of the room, walls and corners make some spots boom and others go thin. Where the subs go matters as much as how many there are.\n\nThe honest limit: feeling bass is not only about wavelength. It also takes enough level, and how strongly you feel it depends on the venue, the system and where you stand.\n\nThe short video sweeps from a high note down to 50 Hz, with a person to scale.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #acoustics"
+}
