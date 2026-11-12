@@ -1,8 +1,25 @@
 {
   "metricool_brand_id": 8029009,
-  "publish_at": "2026-11-12T18:00:00+05:30",
   "posts": [
-    { "networks": ["instagram:REEL", "youtube:short"], "metricool_post_uuid": "778761791075078083", "text": "caption", "status": "scheduled" },
-    { "networks": ["linkedin"], "metricool_post_uuid": "-1468688326549552748", "text": "linkedin", "status": "scheduled" }
+    {
+      "networks": [
+        "instagram:REEL",
+        "youtube:short"
+      ],
+      "metricool_post_uuid": "778761791075078083",
+      "published_at": "2026-11-12T18:00:00+05:30",
+      "status": "published",
+      "instagram": "https://www.instagram.com/reel/DfpD7nczoOi/",
+      "youtube": "https://www.youtube.com/shorts/YgIxL4_76us"
+    },
+    {
+      "networks": [
+        "linkedin"
+      ],
+      "metricool_post_uuid": "-1468688326549552748",
+      "published_at": "2026-11-12T18:00:00+05:30",
+      "status": "published",
+      "linkedin": "https://linkedin.com/feed/update/urn:li:ugcPost:7526622897444913152"
+    }
   ]
 }
