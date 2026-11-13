@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-14-sm58-cardioid",
+  "scene": "mic-polar",
+  "pillar": "sound-explained",
+  "kicker": "Gear close-up",
+  "hook": "Why doesn't the mic hear *the speaker behind it?*",
+  "params": {
+    "pattern": "ideal cardioid",
+    "source_radius": 0.78
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why doesn't a singer's mic pick up the speaker pointed straight at it?"
+    },
+    {
+      "id": "pattern",
+      "say": "Most vocal mics on stage, like the Shure SM58, are cardioid. They hear best from the front."
+    },
+    {
+      "id": "sweep",
+      "hold": 0.5,
+      "say": "Move a sound round to the side, and it's picked up about half as strongly. Round the back, it almost disappears."
+    },
+    {
+      "id": "wedge",
+      "hold": 0.4,
+      "say": "That's where the monitor speaker goes. Right behind the mic, where it hears least."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "The singer hears their monitor, with far less risk of feedback."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why doesn't a singer's mic pick up the speaker pointed straight at it?\n\nMost vocal mics on stage, like the Shure SM58, are cardioid: they hear best from the front.\nFrom the side, sound is picked up about half as strongly. From behind, it almost disappears.\n\nThat's where the monitor wedge goes: right behind the mic, where it hears least. The singer hears their monitor, with far less risk of feedback.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#sm58",
+    "#microphone",
+    "#livesound",
+    "#monitors",
+    "#soundengineer",
+    "#proaudio"
+  ],
+  "youtube_title": "Why doesn't the mic hear the speaker behind it? Cardioid mics explained",
+  "linkedin": "Why doesn't a singer's microphone pick up the monitor speaker pointed straight at it?\n\nBecause of where that speaker sits. Most vocal microphones on stage, including the Shure SM58, have a cardioid pickup pattern: drawn from above, the shape of what they hear looks like a heart, with the mic pointing into the rounded top.\n\nSound from the front is picked up fully. Sound from the side is picked up at roughly half the strength, about 6 dB down for an ideal cardioid. Sound from directly behind falls into the notch at the bottom of the heart and is picked up least of all.\n\nThat notch is where the monitor wedge goes. The singer faces the audience with the mic in front of them, and the wedge on the floor points back up at them, which puts it behind the microphone, where the mic hears least.\n\nWhat that means on the day:\n\n1. Placement is the first line of defence against feedback. A wedge in the mic's notch can be turned up further before it starts to howl than one off to the side.\n\n2. How the mic is held matters. Cupping the grille or pointing the mic at the wedge changes the pattern and invites feedback; it is worth a word with performers before the show.\n\n3. Side-fills and wedges should be planned around the mics, not the other way round. Knowing where every mic points makes the monitor layout easier.\n\nThe honest limit: no real microphone rejects sound from behind completely, and the pattern changes with frequency. A cardioid mic gives you headroom against feedback, not immunity.\n\nThe short video moves a sound around the mic and shows how much it picks up from each direction.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #soundengineering"
+}

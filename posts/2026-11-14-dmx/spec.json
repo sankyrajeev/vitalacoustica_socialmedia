@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-14-dmx",
+  "scene": "dmx",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How does one cable run *a whole lighting rig?*",
+  "params": {
+    "channels": 512,
+    "fixtures": [
+      {
+        "name": "Beam 1",
+        "addr": 1
+      },
+      {
+        "name": "Beam 2",
+        "addr": 17
+      },
+      {
+        "name": "Blinder",
+        "addr": 33
+      },
+      {
+        "name": "Pixel bar",
+        "addr": 49
+      }
+    ]
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How does one cable control a whole lighting rig?"
+    },
+    {
+      "id": "cable",
+      "say": "Lighting desks speak a language called DMX. Down one cable, they send five hundred and twelve numbers, over and over, many times a second."
+    },
+    {
+      "id": "values",
+      "hold": 0.4,
+      "say": "Each number runs from zero to two hundred and fifty five. Brightness, position, effects: each one is just a number."
+    },
+    {
+      "id": "address",
+      "hold": 0.4,
+      "say": "Every fixture is given a start address. It reads its own numbers, and ignores the rest."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "One cable, chained from light to light. That's how a single desk runs the show."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How does one cable control a whole lighting rig?\n\nLighting desks speak DMX. Down one cable they send 512 numbers, over and over, many times a second.\nEach number runs from 0 to 255: brightness, position, effects, each one just a number.\nEvery fixture has a start address. It reads its own numbers and ignores the rest.\n\nOne cable, chained from light to light. That's how a single desk runs the show.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#dmx",
+    "#stagelighting",
+    "#lightingdesign",
+    "#lightingtech",
+    "#lightingprogrammer",
+    "#eventproduction"
+  ],
+  "youtube_title": "How does one cable run a whole lighting rig? DMX in 30 seconds",
+  "linkedin": "How does one cable control a whole lighting rig?\n\nMost stage lighting runs on a protocol called DMX512. The lighting desk sends a stream of 512 numbers, called channels, down a single cable, and repeats the whole stream continuously, many times a second. Each channel holds a value from 0 to 255.\n\nEvery function of every fixture is one of those channels. A dimmer is a channel. Pan and tilt on a moving head are channels. Colour, gobo, strobe and zoom are channels. Turn a fader on the desk and one number in the stream changes.\n\nEach fixture is given a start address. A moving head set to address 17 that uses 16 channels reads channels 17 to 32 and ignores everything else. The cable runs from the desk to the first fixture, then on to the next, and the next, so a whole rig can hang off one line.\n\nWhat that means when planning a show:\n\n1. The patch is part of the plan. Knowing how many channels each fixture uses, and giving each one its own address range, avoids two lights fighting over the same numbers.\n\n2. 512 channels fill up quickly. Pixel-mapped fixtures can use hundreds of channels each, so larger rigs run several DMX universes, often carried over a network and converted back to DMX near the fixtures.\n\n3. Cable runs matter. DMX is reliable, but long chains need proper data cable and termination; microphone cable can work for a while and then fail on the night.\n\nThe honest limit: DMX is a one-way stream. The desk talks and the fixtures listen; they do not report back over standard DMX.\n\nThe short video follows the 512 numbers down the cable and shows each fixture picking out its own.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}
