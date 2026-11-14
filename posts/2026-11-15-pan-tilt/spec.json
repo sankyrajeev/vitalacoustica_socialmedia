@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-15-pan-tilt",
+  "scene": "pan-tilt",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How does a moving head *point anywhere?*",
+  "params": {
+    "hang_m": 6.0,
+    "beam_half_deg": 4
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How does a moving head point its beam anywhere in the room?"
+    },
+    {
+      "id": "pan",
+      "say": "It has two motors. The first turns the whole yoke around, side to side. That's pan."
+    },
+    {
+      "id": "tilt",
+      "hold": 0.3,
+      "say": "The second swings the head up and down, inside the yoke. That's tilt."
+    },
+    {
+      "id": "combine",
+      "hold": 0.4,
+      "say": "Every direction is just one pan angle, and one tilt angle. Two numbers, and the beam can reach almost anywhere."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "The desk sends those two numbers many times a second, and the beam moves with the music."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How does a moving head point its beam anywhere in the room?\n\nTwo motors. The first turns the whole yoke side to side: that's pan.\nThe second swings the head up and down inside the yoke: that's tilt.\n\nEvery direction is one pan angle and one tilt angle. Two numbers, and the beam can reach almost anywhere. The desk sends those numbers many times a second, and the beam moves with the music.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#movingheads",
+    "#stagelighting",
+    "#lightingdesign",
+    "#lightingtech",
+    "#beamlights",
+    "#eventproduction"
+  ],
+  "youtube_title": "How does a moving head point anywhere? Pan and tilt explained",
+  "linkedin": "How does a moving head point its beam anywhere in the room?\n\nWith two motors. The first, pan, turns the whole yoke around its mounting point, side to side. The second, tilt, swings the head up and down between the arms of the yoke. Any direction the fixture can point is simply a combination of one pan angle and one tilt angle.\n\nOn the lighting desk, pan and tilt are just channels like any other: numbers sent many times a second. Change the numbers smoothly and the beam sweeps; change them on the beat and it snaps from position to position in time with the music. Many fixtures also offer a fine channel for each, giving smoother, more precise movement.\n\nWhat that means when planning a show:\n\n1. Rigging position decides what is possible. A moving head can only reach what it can see from where it hangs; plan positions around the looks you want, not just where the truss happens to be.\n\n2. Focus positions are worth programming early. Saving where each beam should land on the stage, the DJ booth or the crowd makes it quick to build looks and to adjust on site.\n\n3. Movement is part of the design. Speed, direction and timing of pan and tilt are as expressive as colour and brightness, and fast moves read very differently to slow sweeps.\n\nThe honest limit: movement is mechanical. Motors take time to travel, and very fast moves across a wide angle can lag behind the music, so big moves need to start a little early.\n\nThe short video shows a fixture hanging from a truss: pan first, then tilt, then both together, landing the beam on four points on the floor.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

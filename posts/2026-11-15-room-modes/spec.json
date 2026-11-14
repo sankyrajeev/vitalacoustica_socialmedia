@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-15-room-modes",
+  "scene": "room-mode",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why does bass boom here, and *vanish over there?*",
+  "params": {
+    "room_m": 7.0,
+    "mode": 2,
+    "speed_of_sound": 343
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does the bass boom in one spot, and vanish two steps away?"
+    },
+    {
+      "id": "bounce",
+      "say": "Bass bounces back and forth between the walls of a room, and the waves going each way overlap."
+    },
+    {
+      "id": "standing",
+      "hold": 0.4,
+      "say": "At some notes, they lock into a standing wave. Loud in some places, almost silent in others."
+    },
+    {
+      "id": "example",
+      "hold": 0.5,
+      "say": "In a room seven metres long, that happens at about forty nine hertz, where a kick drum sits. Walk less than two metres, and you go from a peak to a hole."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why where the subs go matters as much as the subs themselves."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why does the bass boom in one spot and vanish two steps away?\n\nBass bounces between the walls of a room, and the waves going each way overlap.\nAt some notes they lock into a standing wave: loud in some places, almost silent in others.\n\nIn a room seven metres long, that happens at about 49 Hz, where a kick drum sits. Walk less than two metres and you go from a peak to a hole.\n\nThat's why where the subs go matters as much as the subs themselves.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#roomacoustics",
+    "#bass",
+    "#subwoofer",
+    "#livesound",
+    "#acoustics",
+    "#proaudio"
+  ],
+  "youtube_title": "Why does bass boom in one spot and vanish in another? Room modes explained",
+  "linkedin": "Why does the bass boom in one spot and almost vanish a couple of steps away?\n\nLow frequencies bounce between the walls of a room. The wave travelling one way and its reflection travelling back overlap, and at certain frequencies they lock together into a standing wave: a pattern that does not move. These are called room modes.\n\nThe frequencies are set by the room's dimensions. Between two walls seven metres apart, the first modes fall at about 24.5, 49 and 73.5 hertz, multiples of the speed of sound divided by twice the distance. At 49 hertz, right where the weight of a kick drum sits, the pressure peaks at both walls and in the middle of the room, and drops to almost nothing about 1.75 metres from each wall.\n\nSo a listener at the centre hears a heavy boom, and someone less than two metres away hears a hole in the low end, from the same system playing the same track.\n\nWhat that means for an event:\n\n1. Walk the room during soundcheck. Bass that sounds right at the mixing position may be wrong somewhere else.\n\n2. Sub placement is a tuning tool. Where the subs sit relative to the walls changes which modes they excite, and moving them can do more than any EQ.\n\n3. Spreading or combining subs evens out the low end. Several sources in different places excite the room differently, which smooths out peaks and holes across the audience area.\n\nThe honest limit: this example is simplified to one dimension. A real room has modes between every pair of surfaces, and furniture, people and openings all change them. The principle holds, but every venue has to be listened to.\n\nThe short video shows the standing wave between two walls, and a listener walking from a peak into a hole.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #acoustics #eventproduction #proaudio"
+}
