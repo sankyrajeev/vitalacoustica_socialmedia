@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-16-pixel-mapping",
+  "scene": "pixel-map",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How does a bar of lights become *a moving picture?*",
+  "params": {
+    "bars": 8,
+    "pixels_per_bar": 16,
+    "channels_per_pixel": 3
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How does a bar of lights turn into a moving picture?"
+    },
+    {
+      "id": "pixels",
+      "say": "A pixel bar is a line of LEDs, and each one can be set on its own."
+    },
+    {
+      "id": "map",
+      "hold": 0.3,
+      "say": "Lay a picture over the rig. Each light takes the brightness of the part of the picture it sits under."
+    },
+    {
+      "id": "move",
+      "hold": 0.4,
+      "say": "Move the picture, and the lights move with it. Waves, sweeps and shapes, right across the stage."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "It's called pixel mapping. And every pixel adds a few more numbers to the desk, so big rigs need a lot of them."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How does a bar of lights turn into a moving picture?\n\nA pixel bar is a line of LEDs, and each one can be set on its own.\nLay a picture over the rig: each light takes the brightness of the part of the picture it sits under.\nMove the picture, and the lights move with it.\n\nIt's called pixel mapping. Every pixel adds a few more numbers to the desk, so big rigs need a lot of them.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#pixelmapping",
+    "#ledpixel",
+    "#stagelighting",
+    "#lightingdesign",
+    "#lightingtech",
+    "#eventproduction"
+  ],
+  "youtube_title": "How does a bar of lights become a moving picture? Pixel mapping explained",
+  "linkedin": "How does a bar of lights turn into a moving picture?\n\nA pixel bar is a line of LEDs where every single one can be controlled on its own. Hang several in a row and you have a grid of points of light: a very low-resolution screen spread across the stage.\n\nPixel mapping treats it exactly like that. Software lays a picture or a video over a map of where every pixel is in the rig, and each pixel takes the brightness and colour of the part of the image that sits on top of it. Move the image and the light moves with it: waves rolling across the stage, sweeps that run from one side to the other, shapes and logos made out of fixtures.\n\nWhat that means when planning a show:\n\n1. Pixels cost channels. An RGB pixel typically uses three DMX channels, so 128 pixels need 384 channels, most of one 512-channel universe. Bigger pixel rigs run many universes, usually sent over a network.\n\n2. The layout is part of the design. Where the bars hang decides what the picture can look like; a map of the rig drawn early makes content easier to build and to reuse.\n\n3. Content can come from the music. Many systems generate the picture live from sound or from the lighting desk, so the rig reacts to the set rather than playing a fixed loop.\n\nThe honest limit: a pixel rig is a very coarse screen. Fine detail and text rarely read; bold shapes, gradients and movement do.\n\nThe short video shows 128 pixels on eight bars, a picture laid over them, and the lights following it as it moves.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

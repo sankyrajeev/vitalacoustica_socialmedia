@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-16-di-box",
+  "scene": "balanced-line",
+  "pillar": "sound-explained",
+  "kicker": "Gear close-up",
+  "hook": "Where does the hum *go?*",
+  "params": {
+    "hum_hz_visual": "mains hum (50 Hz in India)"
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a long cable pick up hum, and how does a DI box stop it?"
+    },
+    {
+      "id": "problem",
+      "say": "A long cable acts like an aerial. On the way to the desk, it picks up noise, like hum from mains power."
+    },
+    {
+      "id": "balanced",
+      "say": "A DI box sends your signal down two wires. One normal, one flipped upside down."
+    },
+    {
+      "id": "flip",
+      "hold": 0.6,
+      "say": "The noise lands on both wires the same way. At the desk, the flipped wire is turned back, so the signal adds up, and the noise cancels out."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why laptops and instruments go through a DI box before the long run to the desk."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why does a long cable pick up hum, and how does a DI box stop it?\n\nA long cable acts like an aerial and picks up noise on its way to the desk.\nA DI box, like the BSS AR-133, sends your signal down two wires: one normal, one flipped upside down.\nThe noise lands on both wires the same way.\nAt the desk the flipped copy is turned back and the two are combined: the signal adds up, the noise cancels out.\n\nThat's why laptops and instruments go through a DI box before the long run to the desk.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#dibox",
+    "#livesound",
+    "#proaudio",
+    "#soundengineer",
+    "#djsetup",
+    "#eventproduction"
+  ],
+  "youtube_title": "Where does the hum go? How a DI box cancels noise",
+  "linkedin": "Why does a long cable pick up hum, and how does a DI box stop it?\n\nAny long cable behaves a little like an aerial. Running across a stage, past power cables and lighting, it picks up interference, most often a low hum from mains power. On a short cable from a laptop or keyboard that hardly matters; over a long run to the mixing desk it can become clearly audible.\n\nA DI box, such as the BSS AR-133, changes how the signal travels. It takes the instrument or laptop output and sends it down a balanced line: two wires carrying the same signal, one of them flipped upside down. Interference picked up along the way lands on both wires in the same way. At the desk, the input flips the second wire back and combines the two. The signal, now the same way up on both, adds together. The noise, which arrived identical on both, cancels.\n\nWhat that means for an event:\n\n1. Anything that is not already a balanced output, such as laptops, keyboards, guitars and playback devices, should go through a DI before a long cable run.\n\n2. A DI also changes the signal to the level and impedance the stage box and desk expect, which keeps the sound clean as well as quiet.\n\n3. Ground hum is a separate problem. Many DI boxes, including the AR-133, have a ground-lift switch, which can break the loop that causes it.\n\nThe honest limit: cancellation is very good but not perfect. It depends on both wires picking up the noise equally, so damaged cables or poor connectors reduce it.\n\nThe short video shows the signal and the hum on each wire, and what is left when they are combined at the desk.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #soundengineering"
+}
