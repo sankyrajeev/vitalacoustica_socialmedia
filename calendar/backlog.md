@@ -20,6 +20,14 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] E — Delay speakers: why sound is held back electronically so it arrives with the main system → `posts/2026-11-17-delay-speakers`
 - [ ] E — Decibels: why +10 dB sounds twice as loud but takes ten times the power
 - [ ] K — What a tech rider is and why organisers should ask for it early
+- [ ] E — Speed of sound and temperature: about 0.6 m/s faster per °C, and why delay times are checked on the day
+- [ ] E — Why sound carries further at night: cooler air near the ground bends sound back down
+- [ ] E — Phantom centre: how two speakers make a voice appear between them
+- [ ] E — Why quiet music sounds thin: our ears are less sensitive to bass at low volume
+- [ ] E — Headroom and clipping: why a system should never run flat out
+- [ ] K — Why a full room sounds different from an empty one at soundcheck: people absorb sound
+- [ ] E — Limiters: the safety net that protects speakers from overload
+- [ ] E — Why low notes go round corners and high notes don't
 
 ## Light
 
@@ -37,3 +45,11 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Why beams look sharper in the dark: contrast, not brightness
 - [ ] K — What a lighting operator does during a set
 - [ ] E — Light follows the music: beats per minute as the clock for a chase
+- [ ] E — Gobos: a stencil inside the light that shapes the beam
+- [ ] E — Beam, spot and wash: three kinds of fixture and what each one is for
+- [ ] E — Prisms: how one beam becomes several
+- [ ] E — Fresnel lenses: how a lighthouse trick makes a thin lens
+- [ ] E — Why fader at 50% doesn't look half as bright: how our eyes judge brightness
+- [ ] K — Why lights can flicker on camera, and why it matters for filmed events
+- [ ] E — Zoom: how a fixture changes beam angle without moving
+- [ ] K — Uplighting vs downlighting: how the direction of light changes a room
