@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-17-strobe",
+  "scene": "strobe-fan",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How does a strobe *freeze motion?*",
+  "params": {
+    "turns_per_s": 1.6,
+    "flashes_per_s_freeze": 1.6,
+    "flashes_per_s_reverse": 1.68,
+    "blades": 3
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How does a strobe make a spinning fan look frozen?"
+    },
+    {
+      "id": "flash",
+      "say": "A strobe flash is incredibly short. In that instant, even fast motion barely moves."
+    },
+    {
+      "id": "series",
+      "say": "Between flashes, it's dark. So your eyes get a string of still pictures, instead of smooth movement."
+    },
+    {
+      "id": "match",
+      "hold": 0.6,
+      "say": "Flash once every time the fan comes round, and every picture is the same. It looks frozen."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Flash slightly faster, and it seems to turn slowly backwards. Same fan. Different timing."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How does a strobe make a spinning fan look frozen?\n\nA strobe flash is incredibly short, so even fast motion barely moves during it.\nBetween flashes it's dark, so your eyes get a string of still pictures instead of smooth movement.\nFlash once every time the fan comes round and every picture is the same: it looks frozen.\nFlash slightly faster and it seems to turn slowly backwards.\n\nFollow @vitalacoustica for more light, explained.\n\n(This video keeps its flashes slow and small.)",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#strobe",
+    "#stagelighting",
+    "#lightingdesign",
+    "#lightingtech",
+    "#physics",
+    "#eventproduction"
+  ],
+  "youtube_title": "How does a strobe freeze motion? The stroboscopic effect explained",
+  "linkedin": "How does a strobe make a spinning fan look frozen?\n\nA strobe flash is extremely short, so short that even fast-moving objects barely move while it lasts. Between flashes the room is dark. Instead of smooth movement, your eyes receive a series of still pictures, one per flash.\n\nIf the flashes are timed to match the movement, so that the fan has come round to the same position each time, every picture is identical and the fan appears to stand still. Flash slightly faster than the fan turns and each picture catches it a little short of the last position, so it seems to rotate slowly backwards. Flash slightly slower and it creeps forwards. Dancers under a strobe look like a sequence of photographs for the same reason.\n\nWhat that means when using strobes at an event:\n\n1. Strobes change how movement reads. Used sparingly, a burst on a drop freezes the crowd into a series of snapshots; used constantly, it becomes tiring and loses its effect.\n\n2. Safety comes first. Flashing light can trigger seizures in people with photosensitive epilepsy, and fast, high-contrast flashing is the main risk. Clear warnings at the entrance, limits on flash rate and duration, and avoiding full-room strobing at high rates are part of responsible design, and many venues and events have their own rules.\n\n3. Strobing can affect machinery and cameras. Rotating equipment can appear stationary under a strobe, and video cameras can show flicker or banding; both are worth considering for crews and for recorded shows.\n\nThe honest limit: this is a simplified picture of how we see. The eye and brain smooth motion in more complex ways, but the timing effect shown here is real and easy to reproduce.\n\nThe short video shows a fan under steady light, then under flashes matched to its rotation, then under flashes slightly faster. Its flashes are kept slow and small.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

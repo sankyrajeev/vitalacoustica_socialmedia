@@ -17,7 +17,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] K — What "tuning the system" means: delay, level and EQ before doors *(skipped 2026-11-16: too broad for 30 s; consider splitting, e.g. do the delay-speakers topic first)*
 - [ ] E — Point source: why sound from one box spreads as a sphere *(skipped 2026-11-16: too close to the inverse-square post)*
 - [x] G — DI box: balanced vs. unbalanced signal, and where the hum goes → `posts/2026-11-16-di-box`
-- [ ] E — Delay speakers: why sound is held back electronically so it arrives with the main system
+- [x] E — Delay speakers: why sound is held back electronically so it arrives with the main system → `posts/2026-11-17-delay-speakers`
 - [ ] E — Decibels: why +10 dB sounds twice as loud but takes ten times the power
 - [ ] K — What a tech rider is and why organisers should ask for it early
 
@@ -32,7 +32,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] E — Pan and tilt: how two motors point a moving head anywhere → `posts/2026-11-15-pan-tilt`
 - [ ] K — Why lighting needs haze but not smoke: fine and even vs. dense bursts *(skipped 2026-11-16: the haze post's LinkedIn text already made this point)*
 - [x] E — Pixel mapping: how a bar of LEDs becomes a moving picture → `posts/2026-11-16-pixel-mapping`
-- [ ] E — Strobe and persistence of vision: why motion looks frozen
+- [x] E — Strobe and persistence of vision: why motion looks frozen → `posts/2026-11-17-strobe`
 - [ ] G — LED matrix panel: big warm dots over a fine pixel field
 - [ ] E — Why beams look sharper in the dark: contrast, not brightness
 - [ ] K — What a lighting operator does during a set

@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-17-delay-speakers",
+  "scene": "delay-tower",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why is the sound at the back *delayed on purpose?*",
+  "params": {
+    "speed_of_sound": 343,
+    "tower_m": 40,
+    "listener_m": 50
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why are the speakers at the back of a big show delayed on purpose?"
+    },
+    {
+      "id": "slow",
+      "say": "Sound is slow. From a stage forty metres away, it takes about a hundred and seventeen milliseconds to reach you."
+    },
+    {
+      "id": "echo",
+      "hold": 0.4,
+      "say": "A delay speaker near the back gets its signal by cable, almost instantly. On its own, you'd hear it first, and the stage a moment later, like an echo."
+    },
+    {
+      "id": "fix",
+      "hold": 0.6,
+      "say": "So we hold it back by the time sound takes to travel from the stage. Now both arrive together."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "More level at the back, without the echo."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why are the speakers at the back of a big show delayed on purpose?\n\nSound is slow. From a stage 40 metres away it takes about 117 milliseconds to reach you.\nA delay speaker near the back gets its signal by cable, almost instantly. On its own you'd hear it first and the stage a moment later, like an echo.\n\nSo it is held back by the time sound takes to travel from the stage, and both arrive together: more level at the back, without the echo.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#delaytower",
+    "#livesound",
+    "#festivalsound",
+    "#proaudio",
+    "#soundengineer",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why is the sound at the back delayed on purpose? Delay speakers explained",
+  "linkedin": "Why are the speakers at the back of a big show delayed on purpose?\n\nBecause sound is slow. In air it travels about 343 metres per second, so from a stage 40 metres away it takes roughly 117 milliseconds to reach a listener. The electrical signal to a speaker, by comparison, arrives almost instantly.\n\nAt large events, the main system alone cannot cover the back of the audience without being far too loud at the front, so extra speakers, often called delay towers or delay fills, are placed part way back. Fed straight from the desk, they would play before the sound from the stage arrives. Someone standing near them would hear the music twice: first from the delay speaker, then from the stage, smeared like an echo.\n\nThe fix is to delay the signal to those speakers electronically, by the time sound takes to travel from the stage to them. Set correctly, the two arrive together and simply add up.\n\nWhat that means for an event:\n\n1. Delays are measured, not guessed. The distance from the main system to each delay position sets the time, and it is checked by measurement during setup, because temperature changes the speed of sound slightly.\n\n2. A few extra milliseconds help. Engineers often add a small amount on top, so the main system is heard first and the sound still seems to come from the stage.\n\n3. Delay positions shape the audience area. Where they can go, and where the power and cable runs are, is worth deciding early with the venue.\n\nThe honest limit: delays line up perfectly only along one line from the stage. Off to the sides the distances differ, so the timing is a careful compromise across the area they cover.\n\nThe short video follows one kick drum from the stage and from a delay speaker, first without delay, then with it.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #festivalproduction #eventproduction #proaudio"
+}
