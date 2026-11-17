@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-18-decibels",
+  "scene": "decibels",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "What does it take to sound *twice as loud?*",
+  "params": {
+    "steps_watts": [
+      1,
+      2,
+      10,
+      100
+    ]
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How much more power does it take to sound twice as loud?"
+    },
+    {
+      "id": "scale",
+      "say": "Decibels count ratios, not amounts. Every ten decibels is ten times the power."
+    },
+    {
+      "id": "double",
+      "hold": 0.3,
+      "say": "Double the amplifier power, and you gain just three decibels. A small step up."
+    },
+    {
+      "id": "twice",
+      "hold": 0.4,
+      "say": "To sound roughly twice as loud, you need about ten decibels more. That's ten times the power."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Four times as loud takes a hundred times the power. That's why loudness gets expensive, fast."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "How much more power does it take to sound twice as loud?\n\nDecibels count ratios, not amounts: every 10 dB is ten times the power.\nDouble the amplifier power and you gain just 3 dB, a small step up.\nTo sound roughly twice as loud you need about 10 dB more: ten times the power.\nFour times as loud takes a hundred times the power.\n\nThat's why loudness gets expensive, fast.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#decibels",
+    "#livesound",
+    "#proaudio",
+    "#acoustics",
+    "#soundengineer",
+    "#eventproduction"
+  ],
+  "youtube_title": "What does it take to sound twice as loud? Decibels explained",
+  "linkedin": "How much more power does it take for a sound system to sound twice as loud?\n\nFar more than most people expect. Decibels measure ratios, not amounts: every 10 dB is ten times the power. Doubling the power to a speaker adds only about 3 dB, a change most listeners notice but would not call dramatic.\n\nOur ears are not linear either. As a widely used rule of thumb, a sound needs to be about 10 dB higher to be heard as roughly twice as loud. That means ten times the power. Twice as loud again, about four times the original, takes a hundred times the power.\n\nWhat that means for an event:\n\n1. Bigger amplifiers alone rarely solve \"it needs to be louder\". Doubling amplifier power gains about 3 dB. More level usually comes from more or better-suited loudspeakers, placed closer to the audience.\n\n2. Headroom costs real power. A system that sounds comfortable needs spare capacity for peaks in the music; running near its limit gives distortion long before it gives real loudness.\n\n3. Loudness and comfort are a balance. Because perceived loudness grows slowly, small reductions in level cost little in excitement but help hearing and conversation at the bar, and many venues have limits that must be met.\n\nThe honest limit: the \"twice as loud per 10 dB\" figure is an approximation. How loud something seems depends on frequency, duration and the listener, so it is a guide, not an exact law. The power ratios, on the other hand, are exact.\n\nThe short video counts it out in squares of power: one, two, ten, and a hundred, next to how loud each one sounds.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #acoustics"
+}

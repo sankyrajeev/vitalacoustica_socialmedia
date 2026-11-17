@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-18-bpm-chase",
+  "scene": "bpm-chase",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How do the lights stay *in time?*",
+  "params": {
+    "bpm": 128,
+    "fixtures": 8
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How do the lights stay in time with the music?"
+    },
+    {
+      "id": "bpm",
+      "say": "Every track has a tempo. At a hundred and twenty eight beats per minute, a beat lands every four hundred and sixty nine milliseconds."
+    },
+    {
+      "id": "chase",
+      "hold": 0.3,
+      "say": "The lighting desk uses that as its clock. A chase steps from light to light, one step per beat."
+    },
+    {
+      "id": "divide",
+      "hold": 0.4,
+      "say": "Halve it for a slow sweep. Double it for energy. It still lands on the beat."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Tap the tempo in, or let the desk listen, and the whole rig moves with the DJ."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How do the lights stay in time with the music?\n\nEvery track has a tempo. At 128 BPM a beat lands every 469 milliseconds.\nThe lighting desk uses that as its clock: a chase steps from light to light, one step per beat.\nHalve it for a slow sweep, double it for energy, and it still lands on the beat.\n\nTap the tempo in, or let the desk listen, and the whole rig moves with the DJ.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#lightingdesign",
+    "#stagelighting",
+    "#bpm",
+    "#lightingprogrammer",
+    "#djlife",
+    "#eventproduction"
+  ],
+  "youtube_title": "How do the lights stay in time with the music? BPM and chases explained",
+  "linkedin": "How do the lights stay in time with the music?\n\nThey share a clock with it. Every track has a tempo, measured in beats per minute. At 128 BPM, a common tempo for house music, a beat lands every 469 milliseconds: sixty seconds divided by 128.\n\nA lighting desk can run its effects from that same clock. A chase, a sequence that steps from one light to the next, can be set to move one step per beat. Set it to half speed and it becomes a slow sweep across two beats per step; double it and it steps twice per beat, adding energy. Either way, every step still lands on the beat, so the movement feels locked to the music rather than merely busy.\n\nThe tempo can be tapped in by the operator, read from the DJ's equipment, or detected from the audio itself, depending on the system.\n\nWhat that means for a show:\n\n1. Tempo is a design tool. Choosing whether the rig moves on every beat, every bar or every phrase changes how a set feels as much as colour or brightness does.\n\n2. Builds and drops can be shaped. Doubling a chase's speed into a drop, then holding back, follows the structure of the track the way the crowd hears it.\n\n3. An operator still matters. Automatic tempo following is useful, but tracks change tempo, mix into each other and break down; a person at the desk keeps it musical.\n\nThe honest limit: automatic beat detection is not perfect, especially with complex rhythms or quiet breakdowns, which is why many operators keep a hand on the tap button.\n\nThe short video shows eight lights chasing in time at 128 BPM, then at half and double speed.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

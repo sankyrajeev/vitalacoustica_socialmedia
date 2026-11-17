@@ -18,7 +18,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Point source: why sound from one box spreads as a sphere *(skipped 2026-11-16: too close to the inverse-square post)*
 - [x] G — DI box: balanced vs. unbalanced signal, and where the hum goes → `posts/2026-11-16-di-box`
 - [x] E — Delay speakers: why sound is held back electronically so it arrives with the main system → `posts/2026-11-17-delay-speakers`
-- [ ] E — Decibels: why +10 dB sounds twice as loud but takes ten times the power
+- [x] E — Decibels: why +10 dB sounds twice as loud but takes ten times the power → `posts/2026-11-18-decibels`
 - [ ] K — What a tech rider is and why organisers should ask for it early
 - [ ] E — Speed of sound and temperature: about 0.6 m/s faster per °C, and why delay times are checked on the day
 - [ ] E — Why sound carries further at night: cooler air near the ground bends sound back down
@@ -41,10 +41,10 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] K — Why lighting needs haze but not smoke: fine and even vs. dense bursts *(skipped 2026-11-16: the haze post's LinkedIn text already made this point)*
 - [x] E — Pixel mapping: how a bar of LEDs becomes a moving picture → `posts/2026-11-16-pixel-mapping`
 - [x] E — Strobe and persistence of vision: why motion looks frozen → `posts/2026-11-17-strobe`
-- [ ] G — LED matrix panel: big warm dots over a fine pixel field
-- [ ] E — Why beams look sharper in the dark: contrast, not brightness
-- [ ] K — What a lighting operator does during a set
-- [ ] E — Light follows the music: beats per minute as the clock for a chase
+- [ ] G — LED matrix panel: big warm dots over a fine pixel field *(skipped 2026-11-18: too close to the pixel-mapping post; use from early December)*
+- [ ] E — Why beams look sharper in the dark: contrast, not brightness *(skipped 2026-11-18: repeats the blinders post's contrast point)*
+- [ ] K — What a lighting operator does during a set *(skipped 2026-11-18: needs a clear, honest angle; better with real footage)*
+- [x] E — Light follows the music: beats per minute as the clock for a chase → `posts/2026-11-18-bpm-chase`
 - [ ] E — Gobos: a stencil inside the light that shapes the beam
 - [ ] E — Beam, spot and wash: three kinds of fixture and what each one is for
 - [ ] E — Prisms: how one beam becomes several
