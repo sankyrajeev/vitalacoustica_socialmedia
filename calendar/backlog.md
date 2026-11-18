@@ -19,7 +19,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] G — DI box: balanced vs. unbalanced signal, and where the hum goes → `posts/2026-11-16-di-box`
 - [x] E — Delay speakers: why sound is held back electronically so it arrives with the main system → `posts/2026-11-17-delay-speakers`
 - [x] E — Decibels: why +10 dB sounds twice as loud but takes ten times the power → `posts/2026-11-18-decibels`
-- [ ] K — What a tech rider is and why organisers should ask for it early
+- [x] K — What a tech rider is and why organisers should ask for it early → `posts/2026-11-19-tech-rider`
 - [ ] E — Speed of sound and temperature: about 0.6 m/s faster per °C, and why delay times are checked on the day
 - [ ] E — Why sound carries further at night: cooler air near the ground bends sound back down
 - [ ] E — Phantom centre: how two speakers make a voice appear between them
@@ -45,7 +45,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Why beams look sharper in the dark: contrast, not brightness *(skipped 2026-11-18: repeats the blinders post's contrast point)*
 - [ ] K — What a lighting operator does during a set *(skipped 2026-11-18: needs a clear, honest angle; better with real footage)*
 - [x] E — Light follows the music: beats per minute as the clock for a chase → `posts/2026-11-18-bpm-chase`
-- [ ] E — Gobos: a stencil inside the light that shapes the beam
+- [x] E — Gobos: a stencil inside the light that shapes the beam → `posts/2026-11-19-gobos`
 - [ ] E — Beam, spot and wash: three kinds of fixture and what each one is for
 - [ ] E — Prisms: how one beam becomes several
 - [ ] E — Fresnel lenses: how a lighthouse trick makes a thin lens

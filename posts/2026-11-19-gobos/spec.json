@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-19-gobos",
+  "scene": "gobo",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How does a light *project a pattern?*",
+  "params": {},
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How does a light project a pattern?"
+    },
+    {
+      "id": "stencil",
+      "say": "Inside the fixture, in front of the lamp, sits a gobo: a small disc of metal or glass with a pattern cut into it."
+    },
+    {
+      "id": "block",
+      "say": "Light passes through the gaps, and is blocked everywhere else."
+    },
+    {
+      "id": "lens",
+      "hold": 0.4,
+      "say": "A lens then focuses that shape and throws it, much bigger, onto a floor, a wall, or into the haze."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Spin the disc and the pattern turns. Swap it, and the whole look changes."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How does a light project a pattern?\n\nInside the fixture, in front of the lamp, sits a gobo: a small disc of metal or glass with a pattern cut into it.\nLight passes through the gaps and is blocked everywhere else.\nA lens focuses that shape and throws it, much bigger, onto a floor, a wall or into the haze.\n\nSpin the disc and the pattern turns. Swap it and the whole look changes.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#gobo",
+    "#stagelighting",
+    "#lightingdesign",
+    "#movingheads",
+    "#lightingtech",
+    "#eventproduction"
+  ],
+  "youtube_title": "How does a light project a pattern? Gobos explained",
+  "linkedin": "How does a stage light project a pattern?\n\nWith a gobo. Inside the fixture, between the lamp and the lens, sits a small disc of metal or glass with a pattern cut into it or printed on it. Light passes through the open parts and is blocked everywhere else. The lens then focuses that shape and projects it, many times larger, onto a floor, a wall, a ceiling or into haze, where it shows up as patterned beams.\n\nMany moving heads carry several gobos on a wheel, so the pattern can be changed from the lighting desk, and some can rotate each gobo, turning the projected pattern. Custom gobos can also be made, from a simple logo to a detailed image.\n\nWhat that means for an event:\n\n1. Texture without extra fixtures. A breakup pattern on a dance floor, a wall or a ceiling adds depth and movement to a space with the lights already in the rig.\n\n2. Branding can be part of the lighting. A custom gobo can put a logo or event name on a surface; it needs to be ordered ahead of time and suited to the fixtures being used.\n\n3. Focus and throw matter. A gobo looks sharp only when the fixture is focused for the distance to the surface, and the size of the projection grows with that distance.\n\nThe honest limit: a gobo blocks part of the light by design, so a patterned beam is dimmer than an open one. Fine detail also softens over long throws and in haze; bold shapes read best.\n\nThe short video shows the light passing through a gobo, the lens throwing the pattern onto a wall, and the pattern turning and changing.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

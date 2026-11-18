@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-19-tech-rider",
+  "scene": "tech-rider",
+  "pillar": "know-how",
+  "kicker": "Know-how for organisers",
+  "hook": "What's a tech rider, and *why ask early?*",
+  "params": {},
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "What's a tech rider, and why should organisers ask for it early?"
+    },
+    {
+      "id": "what",
+      "say": "It's the artist's technical list. Everything they need on stage to do the show."
+    },
+    {
+      "id": "inside",
+      "hold": 0.3,
+      "say": "Every input and microphone. Where everyone stands. What they want in their monitors. And the gear they expect to find."
+    },
+    {
+      "id": "why",
+      "hold": 0.4,
+      "say": "Get it early, and the system, the crew and the stage plan are built around it. Get it on the day, and it's a scramble."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Ask for the rider when you book the artist. Then send it straight to your production team."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "What's a tech rider, and why should organisers ask for it early?\n\nIt's the artist's technical list: everything they need on stage to do the show.\nEvery input and microphone, where everyone stands, what they want in their monitors, and the gear they expect to find.\n\nGet it early and the system, the crew and the stage plan are built around it. Get it on the day and it's a scramble.\n\nAsk for the rider when you book the artist, then send it straight to your production team.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#techrider",
+    "#eventplanning",
+    "#liveevents",
+    "#eventproduction",
+    "#livesound",
+    "#artistbooking"
+  ],
+  "youtube_title": "What's a tech rider, and why should organisers ask for it early?",
+  "linkedin": "What is a tech rider, and why should organisers ask for it early?\n\nA technical rider is the artist's list of what they need to perform. It usually travels with the booking and sets out, in practical detail, what has to be on stage when they arrive.\n\nA typical rider covers:\n\n- An input list: every channel, what it is, and the microphone or connection it needs.\n- A stage plot: where each performer, instrument and piece of equipment sits.\n- Monitoring: what each performer wants to hear, through wedges or in-ear systems.\n- Backline: instruments, amplifiers, DJ equipment or furniture the artist expects to be provided.\n- Practical details: power, set times, changeover time and a technical contact.\n\nWhy timing matters:\n\n1. The system is planned around it. The number of inputs, monitor mixes and stage positions decides which desk, which speakers and how much cable and crew are needed.\n\n2. Gaps can be solved calmly. If something on the rider is unusual or unavailable, there is time to agree an alternative with the artist's team instead of discovering it at soundcheck.\n\n3. Changeovers depend on it. On multi-artist events, comparing riders early shows where setups overlap and where time is needed between acts.\n\nWhat we recommend: ask for the rider at the point of booking, along with a technical contact, and pass both straight to your production provider. If the artist has no rider, a short conversation about what they use on stage does the same job.\n\nThe honest limit: riders vary hugely, from a single line to many pages, and some include preferences rather than requirements. Reading them well, and knowing what can sensibly be substituted, is part of the production team's job.\n\nFollow Vital Acoustica for more sound, explained.\n\n#eventplanning #eventproduction #liveevents #livesound"
+}
