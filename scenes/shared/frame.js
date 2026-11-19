@@ -43,7 +43,7 @@ export class Frame {
     // Caption chunks: a few words at a time, broken at punctuation, never across beats.
     this.chunks = [];
     for (const b of timeline.beats) {
-      if (b.id === 'outro') continue;
+      if (b.id === 'outro' || b.id === 'hook') continue;   // the hook is already on screen as large text
       let cur = [];
       const flush = () => { if (cur.length) { this.chunks.push({ words: cur, s: cur[0].s, e: cur[cur.length - 1].e }); cur = []; } };
       for (const w of b.words) {

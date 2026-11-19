@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-19-neon-flex",
+  "scene": "footage",
+  "pillar": "gear-close-up",
+  "kicker": "New in the rig",
+  "hook": "Now in the rig: *LED neon flex.*",
+  "params": {
+    "source": "owner footage, shot 2026-11-19",
+    "speed": 0.6,
+    "fps": 30,
+    "bpm": 128,
+    "music": {
+      "title": "Brohug - What House (Original Mix)",
+      "start_s": 41.355,
+      "drop_in_edit_s": 3.75
+    },
+    "segments": [
+      [
+        0.0,
+        8
+      ],
+      [
+        4.0,
+        8
+      ],
+      [
+        6.25,
+        4
+      ],
+      [
+        8.0,
+        8
+      ],
+      [
+        10.3,
+        4
+      ],
+      [
+        11.5,
+        4
+      ],
+      [
+        12.7,
+        4
+      ],
+      [
+        2.25,
+        4
+      ]
+    ],
+    "titles": [
+      {
+        "from": 4.55,
+        "to": 9.375,
+        "text": "Bends to *any shape.*"
+      },
+      {
+        "from": 9.375,
+        "to": 15.0,
+        "text": "Glows *end to end.*"
+      },
+      {
+        "from": 15.0,
+        "to": 22.5,
+        "text": "Now available *to hire.*"
+      }
+    ]
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.4,
+      "say": "New in the Vital Acoustica rig: LED neon flex.",
+      "hold": 0.053
+    },
+    {
+      "id": "shape",
+      "say": "Bend it round a stage, a booth or a bar, and light it up in colour.",
+      "lead": 5.175,
+      "hold": 6.963
+    },
+    {
+      "id": "outro",
+      "say": "Follow Vital Acoustica for more.",
+      "lead": 0.5,
+      "hold": 2.1
+    }
+  ],
+  "outro": "Follow for more *from the rig.*",
+  "caption": "New in the rig: LED neon flex.\n\nFlexible neon that bends to any outline and glows evenly end to end. Wrap it round a stage, a DJ booth or a bar, and light it up in colour.\n\nNow available to hire with the rest of our lighting.\n\nFollow @vitalacoustica for more from the rig.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#neonflex",
+    "#ledneon",
+    "#stagelighting",
+    "#eventlighting",
+    "#bengaluru",
+    "#eventproduction"
+  ],
+  "youtube_title": "New in the rig: LED neon flex",
+  "linkedin": "New in the Vital Acoustica rig: LED neon flex.\n\nNeon flex is a flexible LED light in a soft jacket that bends to almost any outline and glows evenly along its whole length, without the visible dots of an ordinary LED strip. It gives the look of glass neon in a form that can be shaped on site, coiled for transport and reused event after event.\n\nWhere it works well at an event:\n\n1. Outlining structures. Running it along a stage edge, a DJ booth, a bar front or a truss line defines the space and reads clearly on camera.\n\n2. Shapes and lettering. Bent into curves, loops or simple shapes, it can carry an event's theme into the room without printed signage.\n\n3. Colour that matches the show. Set to the same palette as the rest of the lighting, it ties the décor and the stage together, and it can change with the music.\n\nThe honest limit: neon flex is a decorative and accent light, not a light for lighting people or stages. It is about lines and shapes, so it works best alongside the main rig rather than instead of it.\n\nThe short video shows it in a few of its colours, straight out of the case.\n\nIt is now available to hire alongside the rest of our lighting.\n\nFollow Vital Acoustica for more from the rig.\n\n#eventlighting #eventproduction #lightingdesign #liveevents"
+}
