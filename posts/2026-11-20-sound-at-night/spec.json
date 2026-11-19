@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-20-sound-at-night",
+  "scene": "refraction",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why does music carry further *at night?*",
+  "params": {
+    "exaggeration": "curvature exaggerated for clarity"
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does music from a party far away sound louder at night?"
+    },
+    {
+      "id": "day",
+      "say": "By day, the ground warms the air above it. Sound travels faster in warm air, so it bends upwards, over your head."
+    },
+    {
+      "id": "night",
+      "hold": 0.3,
+      "say": "At night the ground cools, and the air near it can be cooler than the air higher up. Now the sound bends back down."
+    },
+    {
+      "id": "far",
+      "hold": 0.4,
+      "say": "So it hugs the ground and carries further, and neighbours hear more than they did in the afternoon."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why noise limits are usually stricter at night, and why systems are aimed to keep the sound on the crowd."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why does music from a party far away sound louder at night?\n\nBy day, the ground warms the air above it. Sound travels faster in warm air, so it bends upwards, over your head.\nAt night the ground cools, and the air near it can be cooler than the air higher up. Now the sound bends back down, hugs the ground and carries further.\n\nThat's why noise limits are usually stricter at night, and why systems are aimed to keep the sound on the crowd.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#acoustics",
+    "#outdoorevents",
+    "#livesound",
+    "#noisecontrol",
+    "#physics",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why does music carry further at night? Sound and temperature explained",
+  "linkedin": "Why does music from a party far away sound louder at night than in the afternoon?\n\nBecause the air bends sound. Sound travels slightly faster in warm air than in cool air, so when temperature changes with height, sound waves curve towards the cooler, slower layer.\n\nOn a sunny day the ground heats the air just above it. The warmest air is at the bottom, so sound bends upwards and much of it passes over the heads of people further away. After sunset the ground cools quickly, and the air near it can become cooler than the air a little higher up, a temperature inversion. Now sound bends back down towards the ground and carries further than it did a few hours earlier.\n\nWind does something similar: sound carries further downwind and less far upwind, because wind speed usually increases with height.\n\nWhat that means for outdoor events:\n\n1. Plan for the evening, not the soundcheck. A level that seemed fine at four in the afternoon can travel noticeably further after dark.\n\n2. Aim the system at the audience. Careful speaker placement and angles keep energy on the crowd rather than the sky or the neighbourhood, and directional low-frequency setups help with bass.\n\n3. Know the local limits. Noise rules in many places, including India, set lower limits at night, and venues often have their own conditions.\n\nThe honest limit: the effect depends on the weather on the night, wind, terrain and buildings. It can be small or large, which is why off-site levels are worth checking during the event, not only beforehand.\n\nThe short video shows the bending exaggerated for clarity: up and away by day, down and along the ground at night.\n\nFollow Vital Acoustica for more sound, explained.\n\n#outdoorevents #eventproduction #livesound #acoustics"
+}

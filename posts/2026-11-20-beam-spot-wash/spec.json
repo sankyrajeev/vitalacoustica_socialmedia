@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-20-beam-spot-wash",
+  "scene": "fixture-types",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Beam, spot or wash: *what's the difference?*",
+  "params": {},
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Beam, spot or wash: what's the difference?"
+    },
+    {
+      "id": "beam",
+      "say": "A beam light makes a narrow, hard shaft of light, made to be seen in the air."
+    },
+    {
+      "id": "spot",
+      "say": "A spot throws a wider circle with a sharp edge, that you can shape, and fill with patterns."
+    },
+    {
+      "id": "wash",
+      "hold": 0.4,
+      "say": "A wash spreads soft, even light over a big area, to colour a stage or a crowd."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Most rigs use all three. Beams for drama, spots to pick things out, and washes to fill the space."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Beam, spot or wash: what's the difference?\n\nA beam light makes a narrow, hard shaft of light, made to be seen in the air.\nA spot throws a wider circle with a sharp edge that you can shape and fill with patterns.\nA wash spreads soft, even light over a big area, to colour a stage or a crowd.\n\nMost rigs use all three: beams for drama, spots to pick things out, washes to fill the space.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#stagelighting",
+    "#movingheads",
+    "#lightingdesign",
+    "#lightingtech",
+    "#beamlights",
+    "#eventproduction"
+  ],
+  "youtube_title": "Beam, spot or wash: what's the difference? Stage lights explained",
+  "linkedin": "Beam, spot or wash: what is the difference between them?\n\nThey describe what a light does with its output, mainly how wide the beam is and how hard its edge is.\n\nA beam fixture squeezes its light into a very narrow, intense shaft with a hard edge. It is designed to be seen in the air, through haze, as a solid line, which is why beams are the signature of club and festival lighting.\n\nA spot fixture produces a wider circle with a sharp, focusable edge. It usually carries gobos, and often shutters or an iris, so the light can be shaped into patterns or cut to fit a person, a lectern or a piece of set.\n\nA wash fixture spreads soft-edged, even light over a wide area. Its job is to colour and fill a stage, a wall or a crowd smoothly, without visible edges.\n\nMany modern fixtures blur the lines, with hybrids that can zoom from a beam to a spot-like output, but the three roles remain the way rigs are planned.\n\nWhat that means for an event:\n\n1. Start from the job. Lighting people on stage, painting a room in colour and creating beams in the air need different tools.\n\n2. Mix them. Most good rigs combine a few of each: beams for energy, spots for focus and texture, washes for colour and coverage.\n\n3. Haze changes the picture. Beams and spots shine in haze; without it they mostly show up where they land.\n\nThe honest limit: the names are a convenient shorthand, not strict categories. Beam angles, output and features vary widely between models.\n\nThe short video shows the three side by side: a narrow beam, a sharp spot and a soft wash.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

@@ -20,8 +20,8 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] E — Delay speakers: why sound is held back electronically so it arrives with the main system → `posts/2026-11-17-delay-speakers`
 - [x] E — Decibels: why +10 dB sounds twice as loud but takes ten times the power → `posts/2026-11-18-decibels`
 - [x] K — What a tech rider is and why organisers should ask for it early → `posts/2026-11-19-tech-rider`
-- [ ] E — Speed of sound and temperature: about 0.6 m/s faster per °C, and why delay times are checked on the day
-- [ ] E — Why sound carries further at night: cooler air near the ground bends sound back down
+- [ ] E — Speed of sound and temperature: about 0.6 m/s faster per °C, and why delay times are checked on the day *(skipped 2026-11-20: too close to the delay-speakers post; use from early December)*
+- [x] E — Why sound carries further at night: cooler air near the ground bends sound back down → `posts/2026-11-20-sound-at-night`
 - [ ] E — Phantom centre: how two speakers make a voice appear between them
 - [ ] E — Why quiet music sounds thin: our ears are less sensitive to bass at low volume
 - [ ] E — Headroom and clipping: why a system should never run flat out
@@ -46,7 +46,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] K — What a lighting operator does during a set *(skipped 2026-11-18: needs a clear, honest angle; better with real footage)*
 - [x] E — Light follows the music: beats per minute as the clock for a chase → `posts/2026-11-18-bpm-chase`
 - [x] E — Gobos: a stencil inside the light that shapes the beam → `posts/2026-11-19-gobos`
-- [ ] E — Beam, spot and wash: three kinds of fixture and what each one is for
+- [x] E — Beam, spot and wash: three kinds of fixture and what each one is for → `posts/2026-11-20-beam-spot-wash`
 - [ ] E — Prisms: how one beam becomes several
 - [ ] E — Fresnel lenses: how a lighthouse trick makes a thin lens
 - [ ] E — Why fader at 50% doesn't look half as bright: how our eyes judge brightness
