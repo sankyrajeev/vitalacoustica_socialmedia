@@ -2,8 +2,25 @@
   "metricool_brand_id": 8029009,
   "note": "Extra post requested by the owner; music is a commercial track supplied by the owner.",
   "posts": [
-    { "networks": ["instagram:REEL", "youtube:short"], "metricool_post_uuid": "3040458132538673365", "published_at": "2026-11-19T20:33:00+05:30", "status": "published",
-      "instagram": "https://www.instagram.com/reel/Df7XtuROE0G/", "youtube": "https://www.youtube.com/shorts/3LPmpdb62t8" },
-    { "networks": ["linkedin"], "metricool_post_uuid": "4642856460713674573", "text": "linkedin", "status": "publishing (still processing at 20:41 IST)" }
+    {
+      "networks": [
+        "instagram:REEL",
+        "youtube:short"
+      ],
+      "metricool_post_uuid": "3040458132538673365",
+      "published_at": "2026-11-19T20:33:00+05:30",
+      "status": "published",
+      "instagram": "https://www.instagram.com/reel/Df7XtuROE0G/",
+      "youtube": "https://www.youtube.com/shorts/3LPmpdb62t8"
+    },
+    {
+      "networks": [
+        "linkedin"
+      ],
+      "metricool_post_uuid": "4642856460713674573",
+      "published_at": "2026-11-19T20:33:00+05:30",
+      "status": "published",
+      "linkedin": "https://linkedin.com/feed/update/urn:li:ugcPost:7529199865378222082"
+    }
   ]
 }
