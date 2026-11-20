@@ -1,0 +1,24 @@
+{
+  "metricool_brand_id": 8029009,
+  "publish_at": "2026-11-21T18:00:00+05:30",
+  "video_url": "https://raw.githubusercontent.com/sankyrajeev/vitalacoustica_socialmedia/a39972202b7581ecefc2305a475a771b591fb878/posts/2026-11-21-prisms/video.mp4",
+  "posts": [
+    {
+      "networks": [
+        "instagram:REEL",
+        "youtube:short"
+      ],
+      "metricool_post_uuid": "-5714253299813366898",
+      "text": "caption",
+      "status": "scheduled"
+    },
+    {
+      "networks": [
+        "linkedin"
+      ],
+      "metricool_post_uuid": "1596018702055261498",
+      "text": "linkedin",
+      "status": "scheduled"
+    }
+  ]
+}
