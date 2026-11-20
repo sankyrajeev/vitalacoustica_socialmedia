@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-21-feedback",
+  "scene": "feedback-loop",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "What makes a mic *howl?*",
+  "params": {
+    "gain_close": 1.3,
+    "gain_far": 0.7
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "What causes that howl when a microphone gets too close to a speaker?"
+    },
+    {
+      "id": "loop",
+      "say": "The mic picks up a sound. The speaker plays it louder. The mic hears that, and sends it round again."
+    },
+    {
+      "id": "grow",
+      "hold": 0.4,
+      "say": "If each trip comes back a little louder than it went out, the sound builds on itself, until it howls."
+    },
+    {
+      "id": "fix",
+      "hold": 0.4,
+      "say": "Move the mic further away, or point its back at the speaker, and less comes back each time."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "When less comes back than goes out, the howl never starts. That's what good placement and tuning are for."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "What causes that howl when a microphone gets too close to a speaker?\n\nThe mic picks up a sound, the speaker plays it louder, the mic hears that and sends it round again.\nIf each trip comes back a little louder than it went out, the sound builds on itself until it howls.\n\nMove the mic further away, or point its back at the speaker, and less comes back each time. When less comes back than goes out, the howl never starts.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#feedback",
+    "#livesound",
+    "#microphone",
+    "#soundengineer",
+    "#proaudio",
+    "#eventproduction"
+  ],
+  "youtube_title": "What makes a mic howl? Feedback explained",
+  "linkedin": "What causes that howl when a microphone gets too close to a speaker?\n\nFeedback is a loop. The microphone picks up a sound, the system amplifies it and the speaker plays it out, and some of that sound reaches the microphone again and goes round once more.\n\nWhat matters is how much comes back on each trip. If every pass returns a little quieter than it went out, the loop dies away on its own. If any frequency comes back even slightly louder than it left, it grows with every trip, and within a fraction of a second it becomes the familiar ring or howl. It usually starts at one frequency, where the room, the speaker and the microphone happen to favour each other.\n\nThe ways to stop it all reduce what comes back:\n\n1. Distance. Moving the microphone further from the speaker, or the speaker further from the microphone, cuts the returning level quickly.\n\n2. Direction. Pointing the back of a directional microphone at monitors and keeping main speakers in front of the microphones means less of their sound is picked up.\n\n3. Level and tuning. Sensible gain, fewer open microphones, and careful EQ on the frequencies that ring first give the system headroom before feedback.\n\nWhat that means for an event: microphone positions, monitor placement and the main system layout are planned together, and the system is rung out during soundcheck so problem frequencies are found before an audience is there.\n\nThe honest limit: there is always a point where any system will feed back if pushed hard enough. Good placement and tuning move that point further away; they do not remove it.\n\nThe short video follows a sound round the loop, first growing into a howl, then dying away once the microphone is moved.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #soundengineering"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-21-prisms",
+  "scene": "prism",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "How does one light become *many beams?*",
+  "params": {
+    "facets": 3
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How does one light become many beams?"
+    },
+    {
+      "id": "glass",
+      "say": "In front of the lens, a fixture can swing in a prism: a piece of glass with several angled faces."
+    },
+    {
+      "id": "split",
+      "hold": 0.3,
+      "say": "Each face bends part of the light in a different direction. One beam goes in. Several come out."
+    },
+    {
+      "id": "rotate",
+      "hold": 0.4,
+      "say": "Spin the prism, and the beams circle around each other."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Add haze, and one fixture looks like several, all moving together."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "How does one light become many beams?\n\nIn front of the lens, a fixture can swing in a prism: a piece of glass with several angled faces.\nEach face bends part of the light in a different direction. One beam goes in, several come out.\nSpin the prism and the beams circle around each other.\n\nAdd haze, and one fixture looks like several, all moving together.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#prism",
+    "#beamlights",
+    "#movingheads",
+    "#stagelighting",
+    "#lightingdesign",
+    "#eventproduction"
+  ],
+  "youtube_title": "How does one light become many beams? Prisms explained",
+  "linkedin": "How does one stage light become many beams?\n\nWith a prism. Many moving heads can swing a piece of glass into the beam, just in front of the lens. The glass has several flat faces set at slight angles to each other, and each face bends the part of the light passing through it in its own direction. One beam goes in; several copies of it come out, spread apart.\n\nA three-facet prism gives three beams in a triangle. Other prisms give more, or arrange the copies in a line. Most can also rotate, so the beams circle around each other, and the prism works together with gobos, so a pattern can be multiplied too.\n\nWhat that means for a show:\n\n1. More looks from the same rig. A handful of beam fixtures with prisms can fill the air with many more beams than there are lights, which makes a modest rig feel bigger.\n\n2. Movement with depth. A rotating prism adds a spiralling motion inside each beam, on top of the fixture's own pan and tilt.\n\n3. Haze makes the difference. Like any beam effect, prisms show best when there is enough haze in the air for the beams to be seen.\n\nThe honest limit: each copy carries only part of the original light, so a split beam is less intense than a single one. Prism effects are striking but easy to overuse; they work best as a change of texture, not all the time.\n\nThe short video shows one beam passing through a three-facet prism, splitting into three, and the three circling as the prism turns.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

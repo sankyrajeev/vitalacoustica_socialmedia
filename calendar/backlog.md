@@ -12,7 +12,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] K — How much PA for 300 people: what actually decides it (room, crowd, music), no fixed numbers *(skipped 2026-11-13: needs a clear, honest angle before it is made)*
 - [x] E — Why your chest feels the kick: wavelength of 50 Hz against the size of a body → `posts/2026-11-13-bass-wavelength`
 - [x] G — Shure SM58: why the vocal mic on almost every stage rejects sound from behind (cardioid pickup) → `posts/2026-11-14-sm58-cardioid`
-- [ ] E — Feedback: the loop between a microphone and a speaker, and why distance and direction break it *(skipped 2026-11-15: too close to the SM58 post; use from about 2026-11-21)*
+- [x] E — Feedback: the loop between a microphone and a speaker, and why distance and direction break it → `posts/2026-11-21-feedback`
 - [x] E — Room modes: why bass booms in one corner and vanishes two steps away → `posts/2026-11-15-room-modes`
 - [ ] K — What "tuning the system" means: delay, level and EQ before doors *(skipped 2026-11-16: too broad for 30 s; consider splitting, e.g. do the delay-speakers topic first)*
 - [ ] E — Point source: why sound from one box spreads as a sphere *(skipped 2026-11-16: too close to the inverse-square post)*
@@ -47,7 +47,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] E — Light follows the music: beats per minute as the clock for a chase → `posts/2026-11-18-bpm-chase`
 - [x] E — Gobos: a stencil inside the light that shapes the beam → `posts/2026-11-19-gobos`
 - [x] E — Beam, spot and wash: three kinds of fixture and what each one is for → `posts/2026-11-20-beam-spot-wash`
-- [ ] E — Prisms: how one beam becomes several
+- [x] E — Prisms: how one beam becomes several → `posts/2026-11-21-prisms`
 - [ ] E — Fresnel lenses: how a lighthouse trick makes a thin lens
 - [ ] E — Why fader at 50% doesn't look half as bright: how our eyes judge brightness
 - [ ] K — Why lights can flicker on camera, and why it matters for filmed events
