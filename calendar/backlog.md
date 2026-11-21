@@ -22,7 +22,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] K — What a tech rider is and why organisers should ask for it early → `posts/2026-11-19-tech-rider`
 - [ ] E — Speed of sound and temperature: about 0.6 m/s faster per °C, and why delay times are checked on the day *(skipped 2026-11-20: too close to the delay-speakers post; use from early December)*
 - [x] E — Why sound carries further at night: cooler air near the ground bends sound back down → `posts/2026-11-20-sound-at-night`
-- [ ] E — Phantom centre: how two speakers make a voice appear between them
+- [x] E — Phantom centre: how two speakers make a voice appear between them → `posts/2026-11-22-phantom-centre`
 - [ ] E — Why quiet music sounds thin: our ears are less sensitive to bass at low volume
 - [ ] E — Headroom and clipping: why a system should never run flat out
 - [ ] K — Why a full room sounds different from an empty one at soundcheck: people absorb sound
@@ -48,8 +48,8 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] E — Gobos: a stencil inside the light that shapes the beam → `posts/2026-11-19-gobos`
 - [x] E — Beam, spot and wash: three kinds of fixture and what each one is for → `posts/2026-11-20-beam-spot-wash`
 - [x] E — Prisms: how one beam becomes several → `posts/2026-11-21-prisms`
-- [ ] E — Fresnel lenses: how a lighthouse trick makes a thin lens
-- [ ] E — Why fader at 50% doesn't look half as bright: how our eyes judge brightness
+- [ ] E — Fresnel lenses: how a lighthouse trick makes a thin lens *(skipped 2026-11-22: glass bending light again, the day after the prisms post; use from early December)*
+- [x] E — Why fader at 50% doesn't look half as bright: how our eyes judge brightness → `posts/2026-11-22-dimmer-curve`
 - [ ] K — Why lights can flicker on camera, and why it matters for filmed events
 - [ ] E — Zoom: how a fixture changes beam angle without moving
 - [ ] K — Uplighting vs downlighting: how the direction of light changes a room

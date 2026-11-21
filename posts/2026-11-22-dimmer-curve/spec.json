@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-22-dimmer-curve",
+  "scene": "dimmer-curve",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why doesn't half power *look half as bright?*",
+  "params": {
+    "curve": "square"
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why doesn't half power look half as bright?"
+    },
+    {
+      "id": "eye",
+      "say": "Your eyes don't measure light in straight amounts. They judge it by comparison."
+    },
+    {
+      "id": "half",
+      "hold": 0.3,
+      "say": "Cut a light to half its output, and it still looks about three quarters as bright."
+    },
+    {
+      "id": "fifth",
+      "hold": 0.3,
+      "say": "To look half as bright, it has to drop to around a fifth."
+    },
+    {
+      "id": "curve",
+      "hold": 0.3,
+      "say": "So many fixtures offer a dimmer curve. With a square law curve, half way on the fader gives a quarter of the light."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "And that looks close to half. The fader now moves the way your eyes see."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why doesn't half power look half as bright?\n\nYour eyes don't measure light in straight amounts; they judge it by comparison.\nCut a light to half its output and it still looks about three quarters as bright. To look half as bright, it has to drop to around a fifth.\n\nSo many fixtures offer a dimmer curve. With a square law curve, half way on the fader gives a quarter of the light, and that looks close to half.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#dimming",
+    "#stagelighting",
+    "#lightingdesign",
+    "#lightingtech",
+    "#dmx",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why doesn't half power look half as bright? Dimmer curves explained",
+  "linkedin": "Why doesn't a light at half power look half as bright?\n\nBecause the eye does not measure light in straight amounts. Our sense of brightness works by comparison, so equal steps in light output do not look like equal steps. A light cut to half its output still looks roughly three quarters as bright. To look half as bright, it has to come down to somewhere around a fifth of its output. The standard model of perceived lightness used in colour science gives about 18 per cent for a mid grey, which is why that figure turns up in photography as well.\n\nIf a fader controlled output in a straight line, most of the visible change would be crowded into the bottom of its travel, and the top half would seem to do very little. So many fixtures and consoles offer dimmer curves. A square law curve, for example, makes the output the square of the fader position: half way on the fader gives a quarter of the light, which looks close to half.\n\nWhat that means for an event:\n\n1. Fades look smoother. With a suitable curve, a slow fade looks even from start to finish instead of seeming to happen all at the end.\n\n2. Match the curve across the rig. Fixtures set to different curves will not track each other during a fade, even on the same fader.\n\n3. Low levels need care. Very dim settings are where LED fixtures differ most, so smooth fades at the bottom are worth checking during programming.\n\nThe honest limit: the figures are averages. Perception also depends on the surroundings, the colour of the light and how adapted the eyes are, and curves vary between manufacturers.\n\nThe short video shows the light output, how bright it looks, and the effect of a square law curve on the fader.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

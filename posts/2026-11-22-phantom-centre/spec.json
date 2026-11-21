@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-22-phantom-centre",
+  "scene": "phantom-centre",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "How do two speakers put a voice *where there is no speaker?*",
+  "params": {
+    "speaker_x_m": 3,
+    "listener_y_m": 5.2,
+    "listener_off_m": 2.5,
+    "pan_db": 6,
+    "speed_of_sound": 343
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How do two speakers put a voice where there is no speaker?"
+    },
+    {
+      "id": "equal",
+      "say": "Send the same voice to both, equally loud. It reaches you from both sides at once."
+    },
+    {
+      "id": "centre",
+      "hold": 0.3,
+      "say": "Your brain can't pick a side, so it hears the voice in the middle."
+    },
+    {
+      "id": "pan",
+      "hold": 0.3,
+      "say": "Turn one side up, and the voice slides towards it. That's what a pan knob does."
+    },
+    {
+      "id": "off",
+      "hold": 0.3,
+      "say": "But stand nearer one speaker, and its sound arrives first. The voice jumps to that side."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why live sound is often mixed mostly in mono. The stereo picture only holds near the middle."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "How do two speakers put a voice where there is no speaker?\n\nSend the same voice to both, equally loud, and it reaches you from both sides at once. Your brain can't pick a side, so it hears the voice in the middle: a phantom centre.\nTurn one side up and the voice slides towards it. That's what a pan knob does.\n\nBut stand nearer one speaker and its sound arrives first, so the voice jumps to that side. That's why live sound is often mixed mostly in mono.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#stereo",
+    "#livesound",
+    "#mixing",
+    "#psychoacoustics",
+    "#audioengineering",
+    "#eventproduction"
+  ],
+  "youtube_title": "How do two speakers make a voice in the middle? The phantom centre explained",
+  "linkedin": "How do two speakers put a voice where there is no speaker?\n\nWhen the same signal comes out of a left and a right speaker at the same level, a listener standing on the centre line hears it from both sides at the same moment. The two ears receive matching sound, so the brain has no reason to place it on either side. It places it in the middle instead, as a phantom centre, even though nothing is there.\n\nThe position of that phantom image can be moved. Make one side louder and the image slides towards it; that is all a standard pan control does. But the brain also pays close attention to timing. If one speaker's sound arrives first by more than about a millisecond, the image tends to jump towards that speaker, even when both are equally loud. This is the precedence effect, and it is exactly what happens to someone standing off to one side of a stage: the nearer speaker arrives first and wins.\n\nWhat that means for an event:\n\n1. Most of the audience is not in the sweet spot. In a wide room, only a narrow strip down the middle hears a balanced stereo picture.\n\n2. Keep important sources in both sides. Lead vocals, speech and key instruments are usually sent equally to left and right, so a guest at the side still hears them clearly.\n\n3. Use stereo for space, not for essentials. Wide effects and ambience can work in stereo; anything the whole room must hear should not depend on it.\n\nThe honest limit: mono is a choice, not a rule. Small rooms, theatre designs and immersive systems can deliver more convincing images, with careful speaker placement and processing.\n\nThe short video shows the voice image moving between two speakers as the level changes, and jumping to one side when the listener moves.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #audioengineering #eventproduction #acoustics"
+}
