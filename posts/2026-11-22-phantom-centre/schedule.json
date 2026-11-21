@@ -1,0 +1,24 @@
+{
+  "metricool_brand_id": 8029009,
+  "publish_at": "2026-11-22T10:00:00+05:30",
+  "video_url": "https://raw.githubusercontent.com/sankyrajeev/vitalacoustica_socialmedia/a5b9c28013cfad91f4d2fd2a4f77c4d70bd155cc/posts/2026-11-22-phantom-centre/video.mp4",
+  "posts": [
+    {
+      "networks": [
+        "instagram:REEL",
+        "youtube:short"
+      ],
+      "metricool_post_uuid": "-7571612558922264779",
+      "text": "caption",
+      "status": "scheduled"
+    },
+    {
+      "networks": [
+        "linkedin"
+      ],
+      "metricool_post_uuid": "-6620030231920229397",
+      "text": "linkedin",
+      "status": "scheduled"
+    }
+  ]
+}
