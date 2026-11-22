@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-23-quiet-bass",
+  "scene": "hearing-threshold",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why does music sound *thin when you turn it down?*",
+  "params": {
+    "quiet_db": -52
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does music sound thin when you turn it down?"
+    },
+    {
+      "id": "ears",
+      "say": "Our ears are less sensitive to low notes. Bass needs more level before we hear it at all."
+    },
+    {
+      "id": "loud",
+      "hold": 0.3,
+      "say": "At a good volume, everything sits well above that line, and the bass feels full."
+    },
+    {
+      "id": "quiet",
+      "hold": 0.4,
+      "say": "Turn it down, and the bass sinks below the line first, while the mids and highs are still there."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why quiet music often needs a little extra bass to sound full. The loudness button on old stereos did exactly that."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why does music sound thin when you turn it down?\n\nOur ears are less sensitive to low notes: bass needs more level before we hear it at all.\nAt a good volume, everything sits well above that line and the bass feels full. Turn it down, and the bass sinks below the line first, while the mids and highs are still there.\n\nThat's why quiet music often needs a little extra bass to sound full. The loudness button on old stereos did exactly that.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#bass",
+    "#hearing",
+    "#psychoacoustics",
+    "#livesound",
+    "#backgroundmusic",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why does music sound thin when it's quiet? Your ears and bass explained",
+  "linkedin": "Why does music sound thin when you turn it down?\n\nBecause our hearing is not equally sensitive at every pitch. We are most sensitive in the middle of the range, roughly where speech sits, and much less sensitive to low notes. A deep bass note has to be considerably louder than a mid-range sound before we can hear it at all.\n\nAt a healthy listening level this hardly matters: the whole range of the music sits comfortably above the threshold of hearing, and the bass sounds full. Turn the music down and everything drops by the same amount, but the bass was closest to the edge to begin with. It fades out of perception first, while the voice and the higher instruments are still clear. The balance tips, and the music sounds thin. This was measured as equal-loudness contours in the 1930s and is now standardised internationally; it is also why many home stereos once had a loudness button that added bass at low volume.\n\nWhat that means for an event:\n\n1. Background music needs its own setting. A dinner, an awards evening or a corporate reception played at low level usually sounds better with a gentle lift in the low end.\n\n2. Judge the system at show level. Tonal balance changes with volume, so a mix set at a quiet soundcheck will sound different once the room is loud, and the other way round.\n\n3. Plan for level changes during the night. If the same system plays quiet dinner music and a loud set later, its tone may need adjusting between the two.\n\nThe honest limit: adding bass costs amplifier and speaker headroom, and too much makes a room boomy. Small speakers can only go so low, however much boost they are given.\n\nThe short video shows a music spectrum against the threshold of hearing, at a good level and then turned down.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #eventproduction #acoustics #corporateevents"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-23-camera-flicker",
+  "scene": "camera-flicker",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why do some lights *flicker on camera?*",
+  "params": {
+    "pwm_low_hz": 600,
+    "pwm_high_hz": 20000,
+    "duty": 0.5,
+    "exposure_s": 0.001,
+    "readout_s": 0.0166667
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why do some lights flicker on camera, but look steady to you?"
+    },
+    {
+      "id": "pwm",
+      "say": "Many LED lights dim by switching on and off, very fast."
+    },
+    {
+      "id": "eye",
+      "hold": 0.2,
+      "say": "Your eyes blend the pulses into a steady glow."
+    },
+    {
+      "id": "camera",
+      "hold": 0.3,
+      "say": "A camera with a fast shutter doesn't. Each row is exposed at a slightly different moment, so some catch the light off. Dark bands appear."
+    },
+    {
+      "id": "fix",
+      "hold": 0.4,
+      "say": "Set the fixture to a much higher pulse rate, and every row catches many pulses. The bands fade away."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Filming an event? Check the lights on camera before doors."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why do some lights flicker on camera, but look steady to you?\n\nMany LED lights dim by switching on and off, very fast. Your eyes blend the pulses into a steady glow.\nA camera with a fast shutter doesn't. Each row is exposed at a slightly different moment, so some catch the light off, and dark bands appear.\n\nSet the fixture to a much higher pulse rate and every row catches many pulses. The bands fade away.\n\nFilming an event? Check the lights on camera before doors.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#flicker",
+    "#ledlighting",
+    "#stagelighting",
+    "#videoproduction",
+    "#livestreaming",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do lights flicker on camera? LED flicker and banding explained",
+  "linkedin": "Why do some lights flicker on camera when they look perfectly steady in the room?\n\nMany LED fixtures dim by switching the LEDs fully on and off very quickly, a method called pulse width modulation. The shorter each on-pulse, the dimmer the light. Our eyes cannot follow pulses that fast, so we see the average: a steady glow at the chosen level.\n\nA camera is different. With a fast shutter it records only a short slice of time, and most video cameras do not capture the whole picture at once; they read it row by row, top to bottom. Each row is exposed at a slightly different moment, so some rows catch the light while it is on and others while it is off. The result is dark bands across the image, or a flicker from frame to frame. Conventional lights running on mains power can do something similar, which is why camera operators in 50 Hz countries such as India often choose shutter speeds like 1/50 or 1/100 of a second.\n\nWhat that means for an event that is filmed or streamed:\n\n1. Tell the lighting team early. Many fixtures can switch to a much higher pulse rate or a camera-friendly mode, but it has to be set.\n\n2. Test on the real camera. Check the lights on the actual cameras, at the shutter speeds and frame rates that will be used, before doors.\n\n3. Watch the low levels. Banding is often most visible when fixtures are dimmed, so check dim looks as well as full ones.\n\nThe honest limit: slow motion and very fast shutters are the hardest case, and not every fixture or screen can be made completely free of banding for them. Testing is the only reliable answer.\n\nThe short video shows the light's on and off pulses, the steady glow the eye sees, and the bands a fast shutter records, which fade when the pulse rate is raised.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #videoproduction #livestreaming #eventproduction"
+}
