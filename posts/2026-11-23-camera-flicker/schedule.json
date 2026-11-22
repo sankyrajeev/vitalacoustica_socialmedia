@@ -1,0 +1,24 @@
+{
+  "metricool_brand_id": 8029009,
+  "publish_at": "2026-11-23T18:00:00+05:30",
+  "video_url": "https://raw.githubusercontent.com/sankyrajeev/vitalacoustica_socialmedia/e2def6ff195292f283065f863c90d9d976ec7fdf/posts/2026-11-23-camera-flicker/video.mp4",
+  "posts": [
+    {
+      "networks": [
+        "instagram:REEL",
+        "youtube:short"
+      ],
+      "metricool_post_uuid": "1985168837927584824",
+      "text": "caption",
+      "status": "scheduled"
+    },
+    {
+      "networks": [
+        "linkedin"
+      ],
+      "metricool_post_uuid": "2875052806480809453",
+      "text": "linkedin",
+      "status": "scheduled"
+    }
+  ]
+}
