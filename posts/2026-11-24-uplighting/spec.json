@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-24-uplighting",
+  "scene": "room-light",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why does a room feel different *when the light points up?*",
+  "params": {
+    "room_w_m": 9,
+    "room_h_m": 4.5
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a room feel different when the light points up?"
+    },
+    {
+      "id": "down",
+      "say": "Light from above lands on the floor and the tables. It feels natural, like daylight, but the walls and ceiling stay dark."
+    },
+    {
+      "id": "up",
+      "hold": 0.3,
+      "say": "Put lights at the foot of the walls, pointing up, and the walls themselves start to glow."
+    },
+    {
+      "id": "feel",
+      "hold": 0.3,
+      "say": "Bright walls and a lit ceiling make a room feel taller and more open."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Most events use both: downlight for tables and the dance floor, uplight to shape the room."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why does a room feel different when the light points up?\n\nLight from above lands on the floor and the tables. It feels natural, like daylight, but the walls and ceiling stay dark.\nPut lights at the foot of the walls, pointing up, and the walls themselves start to glow. Bright walls and a lit ceiling make a room feel taller and more open.\n\nMost events use both: downlight for tables and the dance floor, uplight to shape the room.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#uplighting",
+    "#eventlighting",
+    "#weddinglighting",
+    "#lightingdesign",
+    "#venuedesign",
+    "#eventproduction"
+  ],
+  "youtube_title": "Uplighting vs downlighting: how the direction of light changes a room",
+  "linkedin": "Why does the same room feel so different when the light points up instead of down?\n\nBecause we judge a space largely by the surfaces we can see lit. Downlight, from fixtures in or near the ceiling, puts most of its light on the floor, the tables and the tops of people's heads. That feels natural, since daylight also comes from above, and it is efficient for lighting what people are doing. But it leaves the walls and the ceiling comparatively dark, and dark boundaries make a room read as smaller and lower.\n\nUplighting turns that around. Fixtures placed at the foot of the walls and aimed upward put their light on the walls and, from there, onto the ceiling. The boundaries of the room become the brightest things in view. Lit walls and a lit ceiling make a space feel taller and more open, and some of that light reflects back down softly into the room.\n\nWhat that means for an event:\n\n1. Decide what the light is for. Tables, food and a dance floor need light on them; the feel of the room comes mostly from the walls and ceiling.\n\n2. Use the architecture. Columns, panels, drapes and textured walls take uplight well and become part of the design instead of the background.\n\n3. Balance the two. Most good event rooms combine both: enough downlight to see faces, plates and the floor, and uplight to shape the space and set its mood.\n\nThe honest limit: uplight shows everything on a wall, including marks and clutter, and fixtures on the floor need to be placed safely and tidily away from foot traffic. Light-coloured surfaces reflect it far better than dark ones.\n\nThe short video shows the same room in cross-section, first lit from above, then lit from the foot of the walls.\n\nFollow Vital Acoustica for more light, explained.\n\n#eventlighting #lightingdesign #eventproduction #venuedesign"
+}

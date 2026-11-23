@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-24-headroom",
+  "scene": "headroom-clip",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why should a sound system *never run flat out?*",
+  "params": {
+    "gain_clean": 0.42,
+    "gain_hot": 1.5
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why should a sound system never run flat out?"
+    },
+    {
+      "id": "peaks",
+      "say": "Music isn't steady. A drum hit can peak several times higher than the average level."
+    },
+    {
+      "id": "room",
+      "hold": 0.3,
+      "say": "Headroom is the space left above the average, so those peaks pass through cleanly."
+    },
+    {
+      "id": "clip",
+      "hold": 0.3,
+      "say": "Turn it up too far, and the peaks hit the amplifier's limit. Their tops get cut flat."
+    },
+    {
+      "id": "harsh",
+      "hold": 0.3,
+      "say": "That's clipping. It sounds harsh, and it can damage speakers."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "A good system runs with room to spare, so the loudest moments still sound clean."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why should a sound system never run flat out?\n\nMusic isn't steady. A drum hit can peak several times higher than the average level.\nHeadroom is the space left above the average, so those peaks pass through cleanly.\n\nTurn it up too far and the peaks hit the amplifier's limit; their tops get cut flat. That's clipping. It sounds harsh, and it can damage speakers.\n\nA good system runs with room to spare, so the loudest moments still sound clean.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#headroom",
+    "#clipping",
+    "#livesound",
+    "#proaudio",
+    "#soundengineer",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why should a sound system never run flat out? Headroom and clipping explained",
+  "linkedin": "Why should a sound system never run flat out?\n\nBecause music is not a steady signal. Its average level, the part we perceive as overall loudness, sits well below its peaks. A kick drum, a snare hit or a sudden vocal can momentarily reach several times the average signal level. In decibels, the gap between peaks and average in typical music is often well over ten.\n\nHeadroom is the space a system keeps between its normal operating level and the most it can deliver: its amplifiers' maximum output and its speakers' limits. With enough headroom, the peaks pass through unchanged.\n\nPush the system too hard and the peaks run into that ceiling. The amplifier cannot produce more, so the tops of the waveform are cut flat. That is clipping. It adds harsh distortion that listeners hear as a hard, fatiguing sound, and the extra high-frequency energy it creates can overheat and damage speaker drivers, tweeters in particular.\n\nWhat that means for an event:\n\n1. Size the system for the peaks, not the average. A rig that only just reaches the target level will spend the loudest moments clipping.\n\n2. Watch the indicators, not just your ears. Clip and limit lights on the desk, processors and amplifiers show trouble before it becomes damage.\n\n3. More boxes running comfortably beat fewer boxes running flat out. They sound cleaner, last longer and leave margin for the moment the crowd wants more.\n\nThe honest limit: headroom costs money, in amplifier power and speaker capacity, and processors with limiters can protect a system without solving the shortage. The right amount depends on the music, the room and the audience size.\n\nThe short video shows a music waveform passing cleanly under the amplifier's limit, then, turned up too far, its peaks being cut flat.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #proaudio #eventproduction #soundengineering"
+}
