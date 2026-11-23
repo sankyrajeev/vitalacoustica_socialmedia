@@ -29,6 +29,9 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Limiters: the safety net that protects speakers from overload
 - [ ] E — Why low notes go round corners and high notes don't
 
+- [ ] E — Reflections: why a hard, flat wall sends sound back like a mirror, and what absorbs it
+- [ ] K — Monitors: why performers need their own speakers facing them
+
 ## Light
 
 - [x] E — Why haze makes beams visible → `posts/2026-11-11-haze-beams`
@@ -53,3 +56,8 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] K — Why lights can flicker on camera, and why it matters for filmed events → `posts/2026-11-23-camera-flicker`
 - [ ] E — Zoom: how a fixture changes beam angle without moving *(skipped 2026-11-24: too close to the beam-throw and beam/spot/wash posts; use from mid-December with a different angle, e.g. the lens movement itself)*
 - [x] K — Uplighting vs downlighting: how the direction of light changes a room → `posts/2026-11-24-uplighting`
+- [ ] K — Key light and front light: why a speaker needs light from the front at about 45°, not just from above (shadows under the eyes)
+- [ ] E — Why a spotlight looks round on the floor straight below but stretched when it hits at an angle (an ellipse from a cone)
+- [ ] K — Backlight: how light from behind separates a performer from the background
+- [ ] E — Shadows: why one small source gives a hard edge and a big soft source gives a soft one
+- [ ] K — Lighting a stage with truss: why fixtures hang where they do (front, overhead, back)
