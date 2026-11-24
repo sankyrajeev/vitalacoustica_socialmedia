@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-25-key-light",
+  "scene": "key-light",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why does a speaker on stage need *light from the front?*",
+  "params": {
+    "elev_top_deg": 78,
+    "elev_front_deg": 45
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a speaker on stage need light from the front?"
+    },
+    {
+      "id": "top",
+      "say": "Light from straight above is easy to rig, but it catches the brow first. The eyes fall into shadow."
+    },
+    {
+      "id": "front",
+      "hold": 0.3,
+      "say": "Bring the light round to the front, about forty-five degrees up, and it reaches into the eyes."
+    },
+    {
+      "id": "why",
+      "hold": 0.3,
+      "say": "An audience connects through the eyes. When they can see them, the speaker feels closer."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why stages hang lights out in front, not only overhead."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why does a speaker on stage need light from the front?\n\nLight from straight above is easy to rig, but it catches the brow first, and the eyes fall into shadow.\nBring the light round to the front, about 45 degrees up, and it reaches into the eyes.\n\nAn audience connects through the eyes. When they can see them, the speaker feels closer. That's why stages hang lights out in front, not only overhead.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#stagelighting",
+    "#keylight",
+    "#conferences",
+    "#lightingdesign",
+    "#corporateevents",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do speakers on stage need front light? Key light explained",
+  "linkedin": "Why does a speaker on stage need light from the front, and not just from above?\n\nLight from directly overhead is the easiest to rig: the fixtures hang on a truss above the stage and point down. On a face, though, it lands first on the forehead, the brow and the nose. The brow overhangs the eyes, so steep top light leaves the eye sockets in shadow, with darker patches under the nose and chin as well. From the audience, the speaker's eyes become dark hollows.\n\nMove the light out in front of the stage and lower its angle, to roughly 45 degrees above the speaker's eye line, and it reaches past the brow and into the eyes. The face reads clearly, expressions carry, and the person feels present even from the back of the room. Stage lighting practice has long used front light at around 45 degrees up, usually from two directions a little to either side, so the face is lit without looking flat.\n\nWhat that means for a conference, launch or awards evening:\n\n1. Plan positions out front. Front light needs somewhere to hang: a truss over the audience, stands at the sides or a position at the back of the room.\n\n2. Mind the angle. Too low and the light glares into the speaker's eyes and throws big shadows on the backdrop; too high and the eyes go dark again.\n\n3. Light the places people stand. Lecterns, the centre of the stage and any spot where a presenter will pause should all be covered.\n\nThe honest limit: there is no single perfect angle. Faces, glasses, hats and the height of the stage all change the result, so it is checked with a person standing in position.\n\nThe short video shows a face in profile, lit first from steeply above and then from about 45 degrees in front, with the light traced to the eyes.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #eventproduction #corporateevents #conferences"
+}

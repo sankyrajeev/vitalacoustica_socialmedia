@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-25-round-corners",
+  "scene": "diffraction",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why do low notes go round corners, *when high notes don't?*",
+  "params": {
+    "f_high_hz": 1000,
+    "f_low_hz": 100,
+    "door_m": 1.2,
+    "speed_of_sound": 343,
+    "listener_r_m": 4,
+    "listener_deg": 55
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why do low notes go round corners, when high notes don't?"
+    },
+    {
+      "id": "door",
+      "say": "When sound passes through an opening, it spreads out. How much depends on the size of the wave."
+    },
+    {
+      "id": "high",
+      "hold": 0.3,
+      "say": "High notes have short waves, smaller than a doorway. They carry on mostly straight, and the sides stay quiet."
+    },
+    {
+      "id": "low",
+      "hold": 0.3,
+      "say": "Low notes have waves metres long, bigger than the door itself. They spread out and fill the space beyond."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why, round the corner from a party, you hear the bass but lose the words."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why do low notes go round corners, when high notes don't?\n\nWhen sound passes through an opening, it spreads out, and how much depends on the size of the wave.\nHigh notes have short waves, smaller than a doorway. They carry on mostly straight, and the sides stay quiet.\nLow notes have waves metres long, bigger than the door itself. They spread out and fill the space beyond.\n\nThat's why, round the corner from a party, you hear the bass but lose the words.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#acoustics",
+    "#bass",
+    "#physics",
+    "#livesound",
+    "#venuedesign",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do low notes go round corners? Sound diffraction explained",
+  "linkedin": "Why do low notes go round corners when high notes don't?\n\nBecause of diffraction. When a sound wave passes an edge or goes through an opening, it spreads out into the space beyond. How much it spreads depends on the size of the wave compared with the size of the opening.\n\nHigh frequencies have short wavelengths: at 1,000 hertz a wave is about 34 centimetres long, and higher notes are shorter still. A doorway is large compared with that, so high-frequency sound carries on through it largely in a straight line, and the areas to the side of the door stay comparatively quiet. Low frequencies are the opposite. At 100 hertz a wave is about 3.4 metres long, larger than the door itself, and the sound spreads out widely into the next room or round the corner of a building.\n\nThat is why, standing in a corridor outside a party, you can hear the bass line clearly while the vocals turn into an indistinct murmur. Walls also tend to block high frequencies better than low ones, which adds to the effect.\n\nWhat that means for an event:\n\n1. Bass reaches places the main sound does not. Back of house, neighbouring rooms and the outside of a venue will hear the low end first.\n\n2. Barriers work best on high frequencies. A screen, a wall or a stage set blocks treble and voices much better than it blocks bass.\n\n3. Controlling bass takes other tools. Placement, cardioid subwoofer arrays and sensible levels do more for low-frequency spill than barriers alone.\n\nThe honest limit: real rooms add reflections, and walls, doors and structures carry sound in their own ways. Diffraction is one important part of the picture, not all of it.\n\nThe short video shows waves of 1,000 and 100 hertz passing through the same doorway, computed from the physics of wave spreading.\n\nFollow Vital Acoustica for more sound, explained.\n\n#acoustics #livesound #eventproduction #venuedesign"
+}
