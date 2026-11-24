@@ -10,7 +10,11 @@
       ],
       "metricool_post_uuid": "3712687122386863961",
       "text": "caption",
-      "status": "scheduled"
+      "status": "published",
+      "public_links": [
+        "https://www.instagram.com/reel/DgHGeLphxpd/",
+        "https://www.youtube.com/shorts/eY4NtrGaPa0"
+      ]
     },
     {
       "networks": [
@@ -18,7 +22,10 @@
       ],
       "metricool_post_uuid": "2879123670769615011",
       "text": "linkedin",
-      "status": "scheduled"
+      "status": "published",
+      "public_links": [
+        "https://linkedin.com/feed/update/urn:li:ugcPost:7530850407456157696"
+      ]
     }
   ]
 }
