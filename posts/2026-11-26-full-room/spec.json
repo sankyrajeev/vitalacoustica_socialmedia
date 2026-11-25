@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-26-full-room",
+  "scene": "reverb-crowd",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why does a hall sound different *once the guests arrive?*",
+  "params": {
+    "room_m": [
+      20,
+      15,
+      6
+    ],
+    "alpha_floor": 0.02,
+    "alpha_ceiling": 0.3,
+    "alpha_walls": 0.05,
+    "people": 300,
+    "absorption_per_person_m2": 0.5
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a hall sound different once the guests arrive?"
+    },
+    {
+      "id": "empty",
+      "say": "At soundcheck, the room is empty. Hard floors and walls reflect almost everything, so each sound hangs in the air."
+    },
+    {
+      "id": "fill",
+      "hold": 0.3,
+      "say": "Fill it with three hundred people, and every one of them soaks up a little of the sound."
+    },
+    {
+      "id": "decay",
+      "hold": 0.3,
+      "say": "The echo now dies away more than twice as fast. The room sounds drier, and a little quieter."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why a good engineer expects the change, and adjusts as the room fills."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why does a hall sound different once the guests arrive?\n\nAt soundcheck the room is empty. Hard floors and walls reflect almost everything, so each sound hangs in the air.\nFill it with three hundred people and every one of them soaks up a little of the sound. The echo dies away more than twice as fast, and the room sounds drier and a little quieter.\n\nThat's why a good engineer expects the change, and adjusts as the room fills.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#acoustics",
+    "#reverb",
+    "#soundcheck",
+    "#livesound",
+    "#weddingsound",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why does a hall sound different when it's full? Reverb and audiences explained",
+  "linkedin": "Why does a hall sound different once the guests arrive?\n\nBecause people absorb sound. An empty banquet hall or ballroom is mostly hard surfaces: a polished floor, painted walls, glass and bare tables. They reflect almost all the sound that reaches them, so each note bounces around the room for a while before it fades. That lingering sound is reverberation, and the time it takes to fade by 60 decibels is the reverberation time.\n\nA person, especially in clothing, is a good absorber. Each guest takes a little energy out of every reflection. With hundreds of people in the room, the total absorption rises sharply and the reverberation time falls. In the example in the video, a 20 by 15 metre hall with a six metre ceiling goes from about 2.5 seconds empty to about 1.1 seconds with 300 people, using the standard Sabine formula and a typical figure of about half a square metre of absorption per person.\n\nWhat that means for an event:\n\n1. Soundcheck is not the show. An empty room exaggerates reverberation and the low end; the same settings can sound dry and lighter once it is full.\n\n2. Leave margin in level. A full room also absorbs some of the overall level, so the system may need a little more output during the event than at soundcheck.\n\n3. Speech usually gets clearer. Less reverberation helps intelligibility, so a presentation that sounded muddy in rehearsal often improves with an audience.\n\nThe honest limit: the size of the change depends on the room, the furnishings, how people are dressed and whether they are seated or standing. The figures here are an illustration, not a measurement of any particular venue.\n\nThe short video shows the same hall empty and full, with the decay of a single sound drawn for each.\n\nFollow Vital Acoustica for more sound, explained.\n\n#acoustics #livesound #eventproduction #weddings"
+}

@@ -25,7 +25,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] E — Phantom centre: how two speakers make a voice appear between them → `posts/2026-11-22-phantom-centre`
 - [x] E — Why quiet music sounds thin: our ears are less sensitive to bass at low volume → `posts/2026-11-23-quiet-bass`
 - [x] E — Headroom and clipping: why a system should never run flat out → `posts/2026-11-24-headroom`
-- [ ] K — Why a full room sounds different from an empty one at soundcheck: people absorb sound
+- [x] K — Why a full room sounds different from an empty one at soundcheck: people absorb sound → `posts/2026-11-26-full-room`
 - [ ] E — Limiters: the safety net that protects speakers from overload *(skipped 2026-11-25: the day after the headroom post, whose LinkedIn text covered limiters; use from mid-December)*
 - [x] E — Why low notes go round corners and high notes don't → `posts/2026-11-25-round-corners`
 
@@ -57,7 +57,7 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Zoom: how a fixture changes beam angle without moving *(skipped 2026-11-24: too close to the beam-throw and beam/spot/wash posts; use from mid-December with a different angle, e.g. the lens movement itself)*
 - [x] K — Uplighting vs downlighting: how the direction of light changes a room → `posts/2026-11-24-uplighting`
 - [x] K — Key light and front light: why a speaker needs light from the front at about 45°, not just from above (shadows under the eyes) → `posts/2026-11-25-key-light`
-- [ ] E — Why a spotlight looks round on the floor straight below but stretched when it hits at an angle (an ellipse from a cone)
+- [x] E — Why a spotlight looks round on the floor straight below but stretched when it hits at an angle (an ellipse from a cone) → `posts/2026-11-26-spot-ellipse`
 - [ ] K — Backlight: how light from behind separates a performer from the background
 - [ ] E — Shadows: why one small source gives a hard edge and a big soft source gives a soft one
 - [ ] K — Lighting a stage with truss: why fixtures hang where they do (front, overhead, back)

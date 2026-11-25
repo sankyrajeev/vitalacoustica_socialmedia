@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-26-spot-ellipse",
+  "scene": "spot-ellipse",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why does a round spotlight *turn into an oval?*",
+  "params": {
+    "height_m": 6,
+    "half_angle_deg": 12,
+    "tilt_deg": 50
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why does a round spotlight turn into an oval?"
+    },
+    {
+      "id": "straight",
+      "say": "Pointed straight down, the cone of light meets the floor evenly, in a circle."
+    },
+    {
+      "id": "tilt",
+      "hold": 0.3,
+      "say": "Tilt it, and the far side of the cone has further to travel than the near side. The circle stretches."
+    },
+    {
+      "id": "dim",
+      "hold": 0.3,
+      "say": "The same light now covers a longer patch, and the far end gets the least of it."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why fixtures are hung to hit their target as squarely as the venue allows."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why does a round spotlight turn into an oval?\n\nPointed straight down, the cone of light meets the floor evenly, in a circle.\nTilt it, and the far side of the cone has further to travel than the near side. The circle stretches.\nThe same light now covers a longer patch, and the far end gets the least of it.\n\nThat's why fixtures are hung to hit their target as squarely as the venue allows.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#stagelighting",
+    "#spotlight",
+    "#lightingdesign",
+    "#lightingtech",
+    "#physics",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why does a round spotlight turn into an oval? Light angles explained",
+  "linkedin": "Why does a round spotlight turn into an oval when it is aimed across a stage?\n\nA spotlight sends out a cone of light. Point it straight down and every edge of that cone travels the same distance to the floor, so it lands as a circle, evenly lit.\n\nTilt the fixture and that symmetry is gone. The near edge of the cone reaches the floor quickly; the far edge has much further to go before it lands. The result is an ellipse, stretched away from the fixture. In the example in the video, a fixture six metres up with a 24 degree beam, tilted 50 degrees from vertical, throws a pool well over half as long again as it is wide.\n\nThe brightness changes too. The same light is spread over a larger area, and it arrives at a glancing angle, so the patch is dimmer overall and uneven: brightest at the near end and weakest at the far end, where the light has travelled furthest and strikes the floor most obliquely.\n\nWhat that means for an event:\n\n1. Position matters as much as the fixture. Lights hung closer to square-on to their target give a rounder, more even result.\n\n2. Shape it when you can't move it. Spot fixtures with shutters or framing can trim the stretched end so the light stays where it is wanted.\n\n3. Check the far end. When a spot is aimed at a low angle, faces and objects at the far end of the pool can end up noticeably darker than expected.\n\nThe honest limit: real venues rarely allow perfect angles. Rigging points, sightlines and the audience all limit where fixtures can hang, so lighting design is always a balance.\n\nThe short video shows the same spotlight pointed straight down and then tilted, with the shape and brightness of its pool computed on the floor.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}
