@@ -32,6 +32,10 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Reflections: why a hard, flat wall sends sound back like a mirror, and what absorbs it *(skipped 2026-11-27: the day after the full-room reverb post; use from early December)*
 - [x] K — Monitors: why performers need their own speakers facing them → `posts/2026-11-27-monitors`
 
+- [ ] K — Safe listening time: every 3 dB louder halves how long you can listen safely (85 dB for 8 hours as the reference)
+- [ ] E — Boundary gain: why a subwoofer against a wall or on the floor sounds louder in the bass
+- [ ] E — Off-axis sound: why a speaker sounds duller when you stand to its side (high frequencies beam)
+
 ## Light
 
 - [x] E — Why haze makes beams visible → `posts/2026-11-11-haze-beams`
@@ -61,3 +65,5 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] K — Backlight: how light from behind separates a performer from the background → `posts/2026-11-27-backlight`
 - [ ] E — Shadows: why one small source gives a hard edge and a big soft source gives a soft one
 - [ ] K — Lighting a stage with truss: why fixtures hang where they do (front, overhead, back)
+- [ ] K — LED screens: pixel pitch and the closest comfortable viewing distance
+- [ ] K — Follow spots: how an operator keeps one person lit as they move
