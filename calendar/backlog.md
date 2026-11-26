@@ -29,8 +29,8 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [ ] E — Limiters: the safety net that protects speakers from overload *(skipped 2026-11-25: the day after the headroom post, whose LinkedIn text covered limiters; use from mid-December)*
 - [x] E — Why low notes go round corners and high notes don't → `posts/2026-11-25-round-corners`
 
-- [ ] E — Reflections: why a hard, flat wall sends sound back like a mirror, and what absorbs it
-- [ ] K — Monitors: why performers need their own speakers facing them
+- [ ] E — Reflections: why a hard, flat wall sends sound back like a mirror, and what absorbs it *(skipped 2026-11-27: the day after the full-room reverb post; use from early December)*
+- [x] K — Monitors: why performers need their own speakers facing them → `posts/2026-11-27-monitors`
 
 ## Light
 
@@ -58,6 +58,6 @@ Kinds: **E** explained · **K** know-how for organisers · **G** gear close-up �
 - [x] K — Uplighting vs downlighting: how the direction of light changes a room → `posts/2026-11-24-uplighting`
 - [x] K — Key light and front light: why a speaker needs light from the front at about 45°, not just from above (shadows under the eyes) → `posts/2026-11-25-key-light`
 - [x] E — Why a spotlight looks round on the floor straight below but stretched when it hits at an angle (an ellipse from a cone) → `posts/2026-11-26-spot-ellipse`
-- [ ] K — Backlight: how light from behind separates a performer from the background
+- [x] K — Backlight: how light from behind separates a performer from the background → `posts/2026-11-27-backlight`
 - [ ] E — Shadows: why one small source gives a hard edge and a big soft source gives a soft one
 - [ ] K — Lighting a stage with truss: why fixtures hang where they do (front, overhead, back)

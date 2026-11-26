@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-27-backlight",
+  "scene": "backlight",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why do stage lights shine on performers *from behind?*",
+  "params": {
+    "front_elev_deg": 45,
+    "back_elev_deg": 55
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why do stage lights shine on performers from behind?"
+    },
+    {
+      "id": "front",
+      "say": "Light from the front shows the face. But against a dark stage, the edges of the person disappear."
+    },
+    {
+      "id": "back",
+      "hold": 0.3,
+      "say": "Add a light from behind and above, and it catches the hair and shoulders in a bright outline."
+    },
+    {
+      "id": "sep",
+      "hold": 0.3,
+      "say": "That rim lifts the performer off the background, and gives the picture depth."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "Front light to see them. Backlight to make them stand out."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why do stage lights shine on performers from behind?\n\nLight from the front shows the face. But against a dark stage, the edges of the person disappear.\nAdd a light from behind and above, and it catches the hair and shoulders in a bright outline. That rim lifts the performer off the background and gives the picture depth.\n\nFront light to see them. Backlight to make them stand out.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#backlight",
+    "#stagelighting",
+    "#lightingdesign",
+    "#concertlighting",
+    "#lightingtech",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do stage lights shine from behind? Backlight explained",
+  "linkedin": "Why do stage lights shine on performers from behind?\n\nFront light does the essential job: it lets the audience see faces and expressions. But on its own it makes a flat picture. Against a dark stage or backdrop, the back of the head, the hair and the shoulders receive no light at all, so the edges of the performer blend into the darkness behind them.\n\nBacklight fixes that. A fixture placed behind the performer, usually above and aimed down towards them, lights up the top and back edges of the figure: the hair, the shoulders and the outline of the body. From the audience's side that appears as a bright rim around the person. It separates them from the background, makes the stage feel three-dimensional, and through haze it adds visible beams behind the performer as well.\n\nWhat that means for an event:\n\n1. Plan three directions, not one. A typical approach combines front light for visibility, backlight for separation, and side light where there is room, for shape.\n\n2. Backlight is where colour lives. Because it is not lighting faces directly, it can carry strong colour and movement without making people look odd.\n\n3. Watch the audience's eyes. Backlight aimed too low shines straight into the crowd or the cameras; it needs to be high and angled down.\n\nThe honest limit: backlight alone hides faces, and on camera it can flare into the lens. It works as part of a balanced rig, not as a replacement for good front light.\n\nThe short video shows a performer in profile lit only from the front, then with a light added from behind, computed point by point on the outline.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #liveevents"
+}

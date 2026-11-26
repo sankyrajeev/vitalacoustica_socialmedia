@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-27-monitors",
+  "scene": "monitor-echo",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "Why do performers need speakers *pointing back at them?*",
+  "params": {
+    "room_m": 30,
+    "performer_behind_pa_m": 3,
+    "wedge_m": 1.5,
+    "speed_of_sound": 343
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why do performers need speakers pointing back at them?"
+    },
+    {
+      "id": "away",
+      "say": "The main speakers face the audience. Most of their sound heads away from the stage."
+    },
+    {
+      "id": "echo",
+      "hold": 0.3,
+      "say": "What the singer does hear is an echo off the back wall, arriving nearly a fifth of a second late."
+    },
+    {
+      "id": "wedge",
+      "hold": 0.3,
+      "say": "A monitor at their feet sends their own mix straight to them, from just a metre or two away."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "When performers hear themselves clearly, they sing in tune and play in time."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "Why do performers need speakers pointing back at them?\n\nThe main speakers face the audience, and most of their sound heads away from the stage.\nWhat the singer does hear is an echo off the back wall, arriving nearly a fifth of a second late.\nA monitor at their feet sends their own mix straight to them, from just a metre or two away.\n\nWhen performers hear themselves clearly, they sing in tune and play in time.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#monitors",
+    "#stagemonitors",
+    "#livesound",
+    "#soundengineer",
+    "#liveband",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why do performers need monitor speakers? Stage monitors explained",
+  "linkedin": "Why do performers need speakers pointing back at them?\n\nBecause the main system is built to send sound away from the stage. The main speakers sit at the front and face the audience, and most of their energy, especially in the mid and high frequencies that carry pitch and clarity, travels forward into the room. Standing behind them, a performer hears mostly spill and low-frequency rumble.\n\nWorse, a large part of what does come back to the stage is reflection. In the example in the video, with a back wall 30 metres from the stage, sound from the main speakers travels to the wall and back to a singer three metres behind them in a little under a fifth of a second. That is long enough to hear as a separate, late echo, which makes it hard to keep time and to judge pitch.\n\nStage monitors solve this. A wedge on the floor, or a speaker at the side of the stage, sends each performer their own mix from a metre or two away, so it arrives almost instantly and clearly. Many performers now use in-ear monitors, which do the same job through earpieces and keep the stage quieter.\n\nWhat that means for an event:\n\n1. Monitors are part of the system, not an extra. Any act that sings or plays live needs to hear itself.\n\n2. Ask for the monitor needs early. Artists' technical riders list how many mixes and what kind of monitoring they expect.\n\n3. Placement matters. Wedges are aimed at the performer and at the back of their microphone, which helps keep feedback away.\n\nThe honest limit: monitors add sound on stage, and loud stages can bleed into the audience and the microphones. Good monitoring is a balance between enough level and a clean stage.\n\nThe short video follows the sound from the main speakers out to the back wall and back to the stage, and compares it with a wedge at the performer's feet.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #eventproduction #liveevents #soundengineering"
+}
