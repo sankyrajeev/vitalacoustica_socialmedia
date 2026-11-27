@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-28-shadows",
+  "scene": "penumbra",
+  "pillar": "light-explained",
+  "kicker": "Light explained",
+  "hook": "Why are some shadows sharp, *and others soft?*",
+  "params": {
+    "src_small_m": 0.03,
+    "src_large_m": 1.2,
+    "src_to_obj_m": 2.0,
+    "obj_to_floor_m": 1.0,
+    "obj_w_m": 0.8
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "Why are some shadows sharp, and others soft?"
+    },
+    {
+      "id": "small",
+      "say": "A small light sends all its light from almost one point. The edge of the shadow is crisp."
+    },
+    {
+      "id": "big",
+      "hold": 0.3,
+      "say": "Make the source bigger, and parts of it can see past the object. The edge turns into a soft fade."
+    },
+    {
+      "id": "why",
+      "hold": 0.3,
+      "say": "The bigger the light, and the further the shadow falls from the object, the softer the edge."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why a bare spot gives hard drama, and a big, diffused light is gentle on faces."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *light, explained.*",
+  "caption": "Why are some shadows sharp, and others soft?\n\nA small light sends all its light from almost one point, so the edge of the shadow is crisp.\nMake the source bigger, and parts of it can see past the object. The edge turns into a soft fade.\nThe bigger the light, and the further the shadow falls from the object, the softer the edge.\n\nThat's why a bare spot gives hard drama, and a big, diffused light is gentle on faces.\n\nFollow @vitalacoustica for more light, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#lightisexperienced",
+    "#shadows",
+    "#lightingdesign",
+    "#softlight",
+    "#stagelighting",
+    "#photography",
+    "#eventproduction"
+  ],
+  "youtube_title": "Why are some shadows sharp and others soft? Light source size explained",
+  "linkedin": "Why are some shadows sharp and others soft?\n\nIt comes down to the size of the light source, as seen from the object. A small source, such as a bare LED or a narrow spot, sends its light from almost a single point. Every point on the floor either sees that source or does not, so the shadow has a crisp, hard edge.\n\nA large source behaves differently. From some points near the edge of the shadow, part of the source is hidden behind the object and part is still visible. Those points get some of the light, not all of it, which creates a gradual fade instead of a line. That fade is called the penumbra. Its width grows with the size of the source and with how far the shadow falls beyond the object; in simple geometry it is the source width multiplied by the ratio of those two distances.\n\nWhat that means for an event:\n\n1. Choose the quality of light, not just the amount. Hard light gives drama, texture and strong shapes; soft light is calmer and more forgiving.\n\n2. Faces usually prefer soft light. Large, diffused sources soften wrinkles and harsh shadows, which is why they are favoured for presenters, interviews and photography.\n\n3. Distance changes the look. Moving a performer away from a backdrop softens their shadow on it; moving the light further away makes it appear smaller and harder.\n\nThe honest limit: diffusion and larger sources spread light more widely and usually reduce its intensity, and soft light is harder to keep off places it is not wanted.\n\nThe short video shows the same object lit by a small and then a large source, with the brightness of the floor computed from how much of the source each point can see.\n\nFollow Vital Acoustica for more light, explained.\n\n#stagelighting #lightingdesign #eventproduction #photography"
+}

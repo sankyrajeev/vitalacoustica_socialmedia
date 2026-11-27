@@ -1,0 +1,70 @@
+{
+  "id": "2026-11-28-safe-listening",
+  "scene": "safe-time",
+  "pillar": "sound-explained",
+  "kicker": "Sound explained",
+  "hook": "How long can you listen to loud music *before it harms your hearing?*",
+  "params": {
+    "ref_db": 85,
+    "ref_hours": 8,
+    "exchange_db": 3,
+    "levels": [
+      85,
+      88,
+      91,
+      94,
+      97,
+      100
+    ]
+  },
+  "voice": {
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "lead": 0.5,
+      "say": "How long can you listen to loud music before it harms your hearing?"
+    },
+    {
+      "id": "ref",
+      "say": "A widely used guideline treats eighty-five decibels as safe for about eight hours a day."
+    },
+    {
+      "id": "halve",
+      "hold": 0.3,
+      "say": "Every three decibels louder, that safe time halves. Four hours, two hours, then one."
+    },
+    {
+      "id": "loud",
+      "hold": 0.3,
+      "say": "At a hundred decibels, which a loud gig can easily reach, it's about fifteen minutes."
+    },
+    {
+      "id": "takeaway",
+      "hold": 1.2,
+      "say": "That's why crews wear ear protection, and why levels are watched all night."
+    },
+    {
+      "id": "outro",
+      "lead": 0.5,
+      "hold": 1.4,
+      "say": "Follow Vital Acoustica for more."
+    }
+  ],
+  "outro": "Follow for more *sound, explained.*",
+  "caption": "How long can you listen to loud music before it harms your hearing?\n\nA widely used guideline treats 85 decibels as safe for about eight hours a day.\nEvery 3 decibels louder, that safe time halves: four hours, two hours, then one.\nAt 100 decibels, which a loud gig can easily reach, it's about fifteen minutes.\n\nThat's why crews wear ear protection, and why levels are watched all night.\n\nFollow @vitalacoustica for more sound, explained.",
+  "hashtags": [
+    "#vitalacoustica",
+    "#soundisfelt",
+    "#hearingprotection",
+    "#hearinghealth",
+    "#livesound",
+    "#decibels",
+    "#soundengineer",
+    "#eventproduction"
+  ],
+  "youtube_title": "How long is loud music safe? Decibels and listening time explained",
+  "linkedin": "How long can people listen to loud music before it harms their hearing?\n\nHearing damage depends on two things together: how loud the sound is and how long it lasts. A widely used occupational guideline, from the US National Institute for Occupational Safety and Health, treats 85 decibels (A-weighted) as the level a person can be exposed to for eight hours a day, and uses a 3 decibel exchange rate: every 3 decibels louder halves the safe time.\n\nThat adds up quickly. 88 decibels is four hours, 91 is two, 94 is one hour, 97 is thirty minutes and 100 decibels is about fifteen minutes. Close to the speakers at a loud concert or club night, levels of 100 decibels and more are common, so the safe allowance can be used up within a single set.\n\nWhat that means for an event:\n\n1. Protect the crew. Engineers, technicians, security and bar staff are exposed for the whole event, often night after night. Earplugs designed for music reduce level without making everything sound muffled.\n\n2. Measure, don't guess. A sound level meter at the mixing position, logging through the night, shows what the audience is actually exposed to and helps keep levels sensible.\n\n3. Loud is not the same as good. A well-tuned system sounds powerful and clear at sensible levels; pushing it harder mostly adds fatigue, distortion and risk.\n\nThe honest limit: the guideline is a workplace standard and a simplification. Sensitivity varies between people, local regulations differ, and ringing ears after an event are a sign the limit was passed.\n\nThe short video shows the safe listening time at each step from 85 to 100 decibels, computed from that guideline.\n\nFollow Vital Acoustica for more sound, explained.\n\n#livesound #eventproduction #hearinghealth #liveevents"
+}
